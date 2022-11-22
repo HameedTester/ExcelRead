@@ -1,0 +1,39 @@
+package org.com.oraniumtech;
+
+abstract class Bike {
+	abstract void gear();
+	
+	void cluth() {
+		System.out.println("Bike Cluth");
+	}
+}
+
+class SuperBike extends Bike {
+
+	@Override
+	void gear() {
+		// TODO Auto-generated method stub
+		System.out.println("Super Bike Gear Structure");
+	}	
+}
+
+class NormalBike extends Bike {
+
+	@Override
+	void gear() {
+		// TODO Auto-generated method stub
+		System.out.println("Normal Bike Gear Structure");
+	}
+	
+}
+
+public class AbstractionExample {
+	public static void main(String[] args) {
+		SuperBike s = new SuperBike();
+		s.gear();
+		s.cluth();
+		
+		NormalBike n = new NormalBike();
+		n.gear();
+	}
+}

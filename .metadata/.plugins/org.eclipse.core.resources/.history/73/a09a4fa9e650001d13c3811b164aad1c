@@ -1,0 +1,9 @@
+package org.com.oraniumtech;
+
+public class EmployeeDetail implements EmployeePersonalDetails {
+	public static void main(String[] args) {
+		EmployeeDetail emp = new EmployeeDetail();
+		System.out.println(emp.name);
+		System.out.println(emp.companyName);
+	}
+}

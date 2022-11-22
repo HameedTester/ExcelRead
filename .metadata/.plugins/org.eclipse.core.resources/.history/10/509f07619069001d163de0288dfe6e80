@@ -1,0 +1,23 @@
+package com.testng.project;
+
+public class GroupingInTest {
+	
+	
+	
+	
+	@Test
+	public void flipKart()
+	{
+		
+		
+		
+	}
+	@Test
+	public void amazon()
+	{
+		
+		
+		
+	}
+
+}

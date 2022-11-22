@@ -1,0 +1,44 @@
+package dataType;
+
+public class FirstClass1 extends SecondClass2 {
+
+     
+	
+	public  void car() {
+		
+		
+	System.out.println("first class car");	
+		
+	}
+	public void cycle () {
+		
+		System.out.println("first class cycle");
+	}
+	public void ktmbike () {
+		
+		System.out.println("first class ktmbike");
+	}
+	public static void main(String[] args) {
+		
+	FirstClass1 f = new FirstClass1 ();
+	f.car();
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

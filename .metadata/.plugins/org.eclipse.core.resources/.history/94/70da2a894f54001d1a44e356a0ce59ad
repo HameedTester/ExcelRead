@@ -1,0 +1,8 @@
+package inheritanceDemo;
+
+public class SingleDimensionalArray {
+	
+	int a[]= {12,54,67,34,76,98,23,12};
+	
+
+}

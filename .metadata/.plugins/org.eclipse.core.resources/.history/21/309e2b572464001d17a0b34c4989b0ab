@@ -1,0 +1,14 @@
+package seleniumMaven;
+
+public class MyHomeClass {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

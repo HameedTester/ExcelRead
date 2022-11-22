@@ -1,0 +1,51 @@
+package org.com.oraniumtech;
+
+abstract class AnimalBehaviour {
+	
+	void eat() {
+		System.out.println("Animal will eat");
+	}
+	
+	abstract void sound();
+}
+
+
+
+class Dog extends AnimalBehaviour {
+	
+	String name = "Doggy";
+
+	@Override
+	void sound() {
+		// TODO Auto-generated method stub
+		System.out.println("Dog will bark");
+	}
+
+}
+
+
+class Cat extends AnimalBehaviour {
+	
+	String name = "Kitty";
+
+	@Override
+	void sound() {
+		// TODO Auto-generated method stub
+		System.out.println("CAT WILL MAKE SOUND AS MEOW");
+	}
+
+	
+}
+
+
+public class Animal {
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.eat();
+		d.sound();
+		
+		Cat c = new Cat();
+		c.eat();
+		c.sound();
+	}
+}

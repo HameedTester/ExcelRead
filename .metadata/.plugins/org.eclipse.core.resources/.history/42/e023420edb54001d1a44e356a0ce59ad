@@ -1,0 +1,27 @@
+package finalDemoProject;
+
+public class Childclass {
+
+
+
+	String s1="Oranium Tech";
+	String s2="Oranium Tech Chrompet";
+	String s3="Oranium Tech Velachery";
+
+	public void stringDemo()
+	{
+
+		System.out.println(s1.toLowerCase());
+
+	}
+
+
+	public static void main(String[] args) {
+
+		Childclass c = new Childclass();
+		
+		c.stringDemo();
+
+	}
+
+}

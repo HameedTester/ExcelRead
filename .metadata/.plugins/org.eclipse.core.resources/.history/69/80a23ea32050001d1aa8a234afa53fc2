@@ -1,0 +1,12 @@
+package interfaceDemo;
+
+public class ChildCalc {
+
+	public void divNumbers()
+	{
+
+		System.out.println("Division of Numbers");	
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package dataType;
+
+public class ControlStatements {
+	
+	
+	
+	int age=18;
+	
+	
+	
+	public void control()
+	{
+		
+		
+		
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		
+		ControlStatements 
+		
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,36 @@
+package dataType;
+
+public class ControlStatements {
+	
+	
+	
+	int age=18;
+	
+	
+	
+	public void control()
+	{
+		
+		if(condition)--> variable + relational operator
+		{
+
+		statements; 
+
+		}
+
+		
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		
+		ControlStatements c = new ControlStatements();
+		c.control();
+		
+		
+		
+	}
+	
+
+}

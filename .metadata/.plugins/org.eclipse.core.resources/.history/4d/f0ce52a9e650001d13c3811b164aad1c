@@ -1,0 +1,7 @@
+package org.com.oraniumtech;
+
+public interface InterfaceA {
+	String name = "Oranium Tech";
+	
+	int creditCardNumber = 123456789;
+}

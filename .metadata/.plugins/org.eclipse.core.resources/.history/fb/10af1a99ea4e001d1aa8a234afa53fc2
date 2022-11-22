@@ -1,0 +1,18 @@
+package encapsulationDemo;
+
+public class MyHouse {
+
+	public static void main(String[] args) {
+
+
+		FriendHome f = new FriendHome();
+		System.out.println(f.getLockerAmt());
+
+		f.setLockerAmt(70000);
+
+		System.out.println(f.getLockerAmt());
+		
+		f.methodName();
+	}
+
+}

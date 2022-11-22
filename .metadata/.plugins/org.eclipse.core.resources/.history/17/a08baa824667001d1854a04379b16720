@@ -1,0 +1,57 @@
+package seleniumMaven;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class TakeScreenShot {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		WebDriverManager.chromedriver().setup();
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.facebook.com/");
+		
+		driver.manage().window().maximize();
+		
+		
+		WebElement userText = driver.findElement(By.id("email"));
+		userText.sendKeys("oranium");
+		
+		WebElement passText = driver.findElement(By.name("pass"));
+		passText.sendKeys("pass123");
+		
+		
+		
+		WebElement button = driver.findElement(By.xpath("//button[@type=\"submit\"]"));
+		button.click();
+		
+		
+		
+		// Syntax to take screenshot
+		
+		
+		
+		TakesScreenshot tk =((TakesScreenshot)driver); 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

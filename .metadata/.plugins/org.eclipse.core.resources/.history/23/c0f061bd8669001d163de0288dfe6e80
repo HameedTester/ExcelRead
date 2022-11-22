@@ -1,0 +1,35 @@
+package stepDefinition;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class StepDefinitionFile {
+	
+	
+	
+	@Given("User Launch the Desired Browser")
+	public void user_launch_the_desired_browser() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("User Enters username {string} and password {string}")
+	public void user_enters_username_and_password(String string, String string2) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("User Click the Login Button")
+	public void user_click_the_login_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("Verifying the Outcome")
+	public void verifying_the_outcome() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}

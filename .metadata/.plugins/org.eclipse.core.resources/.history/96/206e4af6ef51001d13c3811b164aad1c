@@ -1,0 +1,32 @@
+package seleniumMaven;
+
+public class SonClass implements InterfaceProgramDemo{
+
+
+
+	public void modNumbers()
+	{
+
+		System.out.println("mod Numbers");
+
+	}
+
+	public void addNumbers()
+	{
+		System.out.println("Add Numbers");	
+	}
+
+
+	public void subNumbers()
+	{
+
+		System.out.println("Sub Numbers");
+	}
+
+	public void mulNumbers()
+	{
+
+		System.out.println("Mul Numbers");
+	}
+
+}

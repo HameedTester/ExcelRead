@@ -1,0 +1,18 @@
+package methodOverloading;
+
+public class FatherHouse {
+	
+	
+	public void audiCar()
+	{
+		
+		System.out.println("Father Audi Car");
+	}
+	
+	public void porscheCar()
+	{
+		
+		System.out.println("Father Porsche Car");
+	}
+
+}

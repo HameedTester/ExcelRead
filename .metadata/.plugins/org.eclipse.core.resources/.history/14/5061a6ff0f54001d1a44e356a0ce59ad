@@ -1,0 +1,25 @@
+package inheritanceDemo;
+
+public class MethodOverloading {
+	
+	int a =10;
+	int b=20;
+	
+	public void addNumbers()
+	{
+		
+		System.out.println(a+b);
+		
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		MethodOverloading m = new MethodOverloading();
+		m.addNumbers();
+	}
+
+}

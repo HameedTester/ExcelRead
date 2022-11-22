@@ -1,0 +1,19 @@
+package swathi;
+
+public class StringExampleDemo {
+	
+	String s = "Java 7PM Batch Chrompet";
+	
+	
+	public void stringProgram()
+	{
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		StringExampleDemo s = new StringExampleDemo();
+		s.stringProgram();
+	}
+}

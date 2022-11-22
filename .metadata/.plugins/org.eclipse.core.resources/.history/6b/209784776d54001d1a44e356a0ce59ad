@@ -1,0 +1,38 @@
+package methodOverloading;
+
+public class DataTypesAndVariables {
+
+
+	// datatype variablename = data;--> Syntax for Variable Declaration
+
+	// Primitive Data Types---->int, byte, long, short, double, float, char, boolean
+
+	// Full Numbers & its Examples
+
+	int v = 1000;
+	float f = 1.23456789010f;
+	double d = 1.234567890123456789d;
+	boolean b = true;
+	boolean b1 = false;
+	char c ='A';
+
+
+
+	public void dataTypes()
+	{
+		System.out.println(v);
+		System.out.println(f);
+		System.out.println(d);
+		System.out.println(b);
+		System.out.println(b1);
+		System.out.println(c);
+
+	}
+
+	public static void main(String[] args) {
+		DataTypesAndVariables d = new DataTypesAndVariables();
+		d.dataTypes();
+	}
+
+
+}

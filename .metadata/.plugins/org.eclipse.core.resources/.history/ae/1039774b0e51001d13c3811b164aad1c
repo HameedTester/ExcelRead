@@ -1,0 +1,45 @@
+package methodOverloading;
+
+public class SonHouse extends FatherHouse {
+
+	public void ktmBike()
+	{
+
+		System.out.println("Sons KTM Bike");
+	}
+
+	public void pulsarBike()
+	{
+
+		System.out.println("Sons Pulsar Bike");
+	}
+	
+	public void audiCar()
+	{
+		
+		System.out.println("Sons Audi Car");
+	}
+
+	public static void main(String[] args) {
+		SonHouse s = new SonHouse();
+
+		s.ktmBike();
+		s.pulsarBike();
+		s.audiCar();
+		s.audiCar();
+		s.porscheCar();
+		
+		FatherHouse f = new FatherHouse();
+		f.audiCar();
+		f.porscheCar();
+		
+		FatherHouse f1 = new SonHouse(); // Upcasting
+		f1.audiCar();
+		f1.porscheCar();
+		
+
+
+	}
+
+
+}

@@ -1,0 +1,18 @@
+package inheritanceDemo;
+
+public class ChildCalculator {
+
+	public void modNumbers()
+	{
+
+
+		System.out.println("Modulation of Two Numbers");
+	}
+
+	public void divNumbers()
+	{
+
+		System.out.println("Division of Two Numbers");
+	}
+
+}

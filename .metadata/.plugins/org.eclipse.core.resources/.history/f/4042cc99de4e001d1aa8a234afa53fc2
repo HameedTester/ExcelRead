@@ -1,0 +1,24 @@
+package starPattern;
+
+public class MethodsInJava {
+	int a;
+	
+	public void methodName()
+	{
+		
+	System.out.println(a);	
+	}
+
+	
+	public void methodName(int a, int b)
+	{
+		System.out.println(a+b);
+		
+	}
+	
+	public static void main(String[] args) {
+		MethodsInJava m = new MethodsInJava();
+		m.methodName();
+		m.methodName(3, 2);
+	}
+}

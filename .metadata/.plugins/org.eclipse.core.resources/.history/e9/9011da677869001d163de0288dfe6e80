@@ -1,0 +1,42 @@
+package dataType;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		
+		HashSet <Object>h=new HashSet ();
+		
+		h.add("oranium tech");
+		h.add(23);
+		h.add(4343545.56767f);
+		h.add(null);
+		h.add("oranium tech");
+		h.add(null);
+		h.add(null);
+		
+		System.out.println(h);
+		
+		//using enhanced forloop
+		for(Object m:h)
+		{
+			System.out.println(m);
+		}
+		//for each
+		h.forEach(k->System.out.println(k));
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+

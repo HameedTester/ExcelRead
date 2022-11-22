@@ -1,0 +1,8 @@
+package seleniumMaven;
+
+public class Encapsulation {
+	
+	
+	private int locker=1000;
+
+}

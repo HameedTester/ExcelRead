@@ -1,0 +1,55 @@
+package seleniumMaven;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class DropDownInSelenium {
+
+
+	public static void main(String[] args) {
+
+
+		WebDriverManager.chromedriver().setup();
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://letcode.in/dropdowns");
+
+		driver.manage().window().maximize();
+
+
+		//fruits
+
+
+		WebElement singleDrop = driver.findElement(By.id("fruits"));
+		
+		
+		// syntax for select class
+		
+		Select s = new Select(singleDrop);
+		
+		s.selectByIndex(2);
+		
+		s.selectByVisibleText("Pine Apple");
+		
+		s.selectByValue("0");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+	}
+
+}

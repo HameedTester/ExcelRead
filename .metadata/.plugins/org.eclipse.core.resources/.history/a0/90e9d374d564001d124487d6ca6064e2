@@ -1,0 +1,30 @@
+package seleniumMaven;
+
+public class ChildClassDemo implements FatherInterface {
+	
+	
+	public void divNumbers()
+	{
+		
+		System.out.println("Div Numbers");
+	}
+	
+public void addNumbers()// fully abstract method
+{
+System.out.println("Addition");	
+}
+	
+	public void subNumbers()
+	{
+		
+		System.out.println("Subraction");
+	}
+	
+	public void mulNumbers()
+
+	{
+		
+		System.out.println("Multiplication");
+	}
+	
+}

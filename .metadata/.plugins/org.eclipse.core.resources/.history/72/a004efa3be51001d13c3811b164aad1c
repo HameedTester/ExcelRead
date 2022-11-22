@@ -1,0 +1,43 @@
+package seleniumMaven;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AlertsDemoProgram {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		WebDriverManager.chromedriver().setup();
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://demoqa.com/alerts");
+
+		driver.manage().window().maximize();
+
+		WebElement simpleAlert = driver.findElement(By.xpath("//button[@id=\"alertButton\" and @class=\"btn btn-primary\"]"));
+		simpleAlert.click();
+
+		Alert a = driver.switchTo().alert(); // Simple Alert
+		
+		String alert1 = a.getText();
+		System.out.println(alert1);
+		a.accept();
+
+		Thread.sleep(2000);
+		
+		
+		WebElement confirmationBox = driver.findElement(By.id("confirmButton"));
+		confirmationBox.click();
+		
+		Alert a1 = driver.switchTo().alert();
+		String alert2 = a1.getText();
+	System.out.println(alert2);
+	
+	}
+
+}

@@ -1,0 +1,16 @@
+package twoDimensional;
+
+public class MethodOverloadingDemoProgram {
+	
+	int a =10;
+	int b=20;// Gloabl Variables
+
+	
+	public void addNumbers()
+	{
+		
+		System.out.println("Addition of Two Numbers:"+(a+b));
+	}
+	
+	
+}

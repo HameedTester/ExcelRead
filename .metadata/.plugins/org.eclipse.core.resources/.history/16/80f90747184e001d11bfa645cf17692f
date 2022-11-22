@@ -1,0 +1,40 @@
+package octSeleniumBatch;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OctSeleniumBatch {
+
+	public static void main(String[] args) {
+
+
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\eclipse-workspace\\OctSeleniumBatch\\driver\\chromedriver.exe");// Path of the Driver 
+
+		WebDriver driver = new ChromeDriver();// initialize the Blank Url of the Browser
+
+		driver.get("https://www.amazon.in/");// use to launch the url
+		
+		driver.manage().window().maximize();
+
+		String title = driver.getTitle();
+		System.out.println(title);
+
+		String currentUrl = driver.getCurrentUrl();
+		System.out.println(currentUrl);
+		
+		if(title.equals("") && currentUrl.equals(""))
+		{
+			System.out.println("Its a valid title and Valid Url");
+			
+		}
+		else
+		{
+			
+			System.out.println("Its not a valid title and not a valid url");
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package finalDemoProject;
+
+public class ParentClass {
+
+	
+
+
+	public void empDetails()
+	{
+
+
+		System.out.println("Employee Details");
+	}
+
+	public void empAddress()
+	{
+
+		System.out.println("Employee Address");
+	}
+
+}

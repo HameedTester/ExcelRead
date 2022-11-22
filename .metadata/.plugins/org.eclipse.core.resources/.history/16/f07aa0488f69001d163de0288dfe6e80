@@ -1,0 +1,51 @@
+package com.testng.project;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class AssertionInTest {
+
+	//	@Test
+	//	public void hardAssert()
+	//	{
+	//		System.out.println("Hi this is Hard Assert");
+	//		String s1="Oranium Velachery";
+	//		String s2="Oranium Chrompet";
+	//
+	//
+	//		Assert.assertEquals(s1, s2, "Both the Strings are Not Equals");
+	//		System.out.println("Hard Assert");
+	//		System.out.println("Hard Assert Validation");
+	//
+	//	}
+
+
+	@Test
+	public void softAssert()
+	{
+
+		System.out.println("Hi this is Soft Assert");
+		String s1="Chrompet";
+		String s2="Velachery";
+
+		//syntax for Soft Assert
+
+		SoftAssert s = new SoftAssert();
+		s.assertEquals(s1, s2);
+		System.out.println("Both the Strings are not equals");
+		System.out.println("Soft Assert allows even the failed test cases");
+
+s.assertAll();
+
+
+
+
+
+
+
+
+	}
+
+
+}

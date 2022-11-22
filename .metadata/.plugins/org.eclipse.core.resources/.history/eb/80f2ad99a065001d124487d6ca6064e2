@@ -1,0 +1,12 @@
+package seleniumMaven;
+
+public interface FatherInterface {
+	
+	
+	public void addNumbers();// fully abstract method
+	
+	
+	public void subNumbers();
+	
+	public void mulNumbers();
+}

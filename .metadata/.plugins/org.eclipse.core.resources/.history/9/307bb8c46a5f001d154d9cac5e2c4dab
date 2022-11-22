@@ -1,0 +1,18 @@
+package inheritanceDemo;
+
+public class SonHouse {
+	
+	public void ktmBike()
+	{
+		
+		System.out.println("Sons KTM Bike");
+		
+	}
+	
+	public void pursarBike()
+	{
+		
+		System.out.println("Sons Pulsar Bike");
+	}
+
+}

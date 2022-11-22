@@ -1,0 +1,34 @@
+package dataType;
+
+public class TableFormatUsingLoops {
+
+
+	int num=1;
+
+
+	public void tableFormat()
+	{
+		
+		// using while loop
+		
+		while(num<=10) // variable + relational operator
+		{
+			
+			System.out.println(num+"X 4 ="+(num*4)); 
+			num++;
+			
+		}
+
+
+	}
+
+	public static void main(String[] args)
+	{
+
+
+		TableFormatUsingLoops t = new TableFormatUsingLoops();
+		t.tableFormat();
+
+	}
+
+}

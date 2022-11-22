@@ -1,0 +1,57 @@
+package seleniumMaven;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class JavaScriptExecutor {
+	
+	
+	public static void main(String[] args) {
+		
+		WebDriverManager.chromedriver().setup();
+		
+		WebDriver driver = new ChromeDriver();
+//		
+//		driver.get("https://www.facebook.com");
+//		driver.manage().window().maximize();
+//		
+//		JavascriptExecutor js = ((JavascriptExecutor)driver);
+//		
+//		WebElement userText = driver.findElement(By.id("email"));
+//		js.executeScript("document.getElementById('email').value='oranium@gmail.com';");
+//		
+//		WebElement passWord = driver.findElement(By.id("pass"));
+//		js.executeScript("document.getElementById('pass').value='pass@123';");
+//		
+//		
+//		WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
+//		js.executeScript("arguments[0].click();",loginButton);
+		
+		
+		
+		driver.get("https://letcode.in/frame");
+		driver.manage().window().maximize();
+		
+		driver.switchTo().frame(0);
+		
+		
+		WebElement firstName = driver.findElement(By.name("fname"));
+		firstName.sendKeys("oranium");
+		
+		
+		WebElement lastName = driver.findElement(By.name("lname"));
+		lastName.sendKeys("tech chrompet");
+		
+		driver.switchTo().frame(0);
+		
+		
+		WebElement email = driver.findElement(By.name("email"));
+		email.sendKeys("oranium@gmail.com");
+	}
+
+}

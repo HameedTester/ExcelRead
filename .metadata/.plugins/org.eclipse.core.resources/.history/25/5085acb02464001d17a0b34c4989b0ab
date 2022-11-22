@@ -1,0 +1,8 @@
+package seleniumMaven;
+
+public class MyFriendHome {
+	
+	
+	int lockerAmount=10000;
+
+}

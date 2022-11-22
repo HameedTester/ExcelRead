@@ -1,0 +1,46 @@
+package inheritanceDemo;
+
+public class MethodOverloading {
+
+	int a =10;
+	int b=20;
+
+	public void addNumbers() // without parameters
+	{
+
+		System.out.println(a+b);
+
+
+	}
+
+	public void addNumbers(int a, int b) // with parameters
+	{
+
+		System.out.println(a-b);
+	}
+
+	public void addNumbers(float a, int b)
+	{
+
+		System.out.println(a*b);
+	}
+
+	public void addNumbers(int a, float b)
+	{
+
+		System.out.println(a/b);
+	}
+
+
+
+	public static void main(String[] args) {
+
+
+		MethodOverloading m = new MethodOverloading();
+		m.addNumbers();
+		m.addNumbers(30, 10);
+		m.addNumbers(40.3f, 30);
+		m.addNumbers(20, 20.4f);
+	}
+
+}

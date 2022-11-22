@@ -1,0 +1,23 @@
+package dataType;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+	
+	public static void main(String[] args) {
+		
+		
+		TreeSet<String> t = new TreeSet(); // treeset accepts only similar data types// it dosent allow even one null
+		t.add("Oranium"); 
+		t.add("Oranium");
+		t.add("Chrompet");
+		t.add("Velachery");
+		
+		
+		System.out.println(t);
+		
+		
+		
+	}
+
+}

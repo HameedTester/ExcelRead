@@ -1,0 +1,19 @@
+package loopsDemo;
+
+public class NestedLoopProgram {
+	
+
+	public void nestedLoop()
+	{
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		NestedLoopProgram n = new NestedLoopProgram();
+		n.nestedLoop();
+	}
+
+}

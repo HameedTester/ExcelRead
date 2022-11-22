@@ -1,0 +1,17 @@
+package encapsulationDemo;
+
+public class FriendHome {
+	
+	int lockerAmt =400000;
+
+	
+	
+	public void lockerAmount()
+	{
+		
+		
+	}
+	
+	
+	
+}

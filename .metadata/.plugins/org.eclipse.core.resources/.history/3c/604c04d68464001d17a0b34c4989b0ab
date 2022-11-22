@@ -1,0 +1,77 @@
+package seleniumMaven;
+
+public class ExceptionHandling {
+
+
+	int a =10;
+	int b=0;
+	
+	int arr[] = {12,23,45,67,89};
+	
+	String s1 = "Oranium";
+	
+	
+	String s2=null;
+
+
+	public void exceptionHandling()
+	{
+
+		System.out.println("Hiii This is Exception Handling Demo");
+		
+		System.out.println(s2.length());
+
+		
+		try
+		{
+			System.out.println(s1.charAt(7));
+			
+			
+		}
+		
+		catch(Exception e)
+		{
+			
+			e.printStackTrace();
+		}
+		
+//		try
+//		{
+//			
+//			System.out.println(arr[5]);
+//		}
+//		
+//		catch(Exception e)
+//		{
+//			
+//			
+//			System.out.println(e);
+//		}
+//		
+		
+		
+
+//		try
+//		{
+//
+//			//System.out.println("Division of Two Numbers:"+(a/b));
+//
+//		}
+//		catch(Exception e)
+//		{
+//			System.out.println(e);
+//
+//		}
+		System.out.println("Thank you for Practicing Exception Handling");
+
+	}
+
+
+	public static void main(String[] args) {
+
+		ExceptionHandling e = new ExceptionHandling();
+		e.exceptionHandling();
+
+	}
+
+}

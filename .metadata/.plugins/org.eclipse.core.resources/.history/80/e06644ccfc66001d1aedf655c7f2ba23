@@ -1,0 +1,24 @@
+package dataType;
+
+public class LogicalOperator {
+	
+	
+	int x=10;
+	int y=20;
+	
+	
+	public void logicalOperator()
+	{
+		
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		
+		LogicalOperator l = new LogicalOperator();
+		
+		l.logicalOperator();
+	}
+}

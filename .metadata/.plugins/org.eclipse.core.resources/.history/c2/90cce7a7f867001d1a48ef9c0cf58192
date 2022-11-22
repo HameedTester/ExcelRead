@@ -1,0 +1,50 @@
+package dataType;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		ArrayList<Object> a = new ArrayList();
+		
+		a.add("Oranium");
+		a.add(23);
+		a.add(37458.5667f);
+		a.add(null);
+		a.add("Oranium");
+		a.add(null);
+		a.add(null);
+		
+		System.out.println(a);
+		
+		
+		// iterations
+		
+		
+		// using enhanced for loop
+		
+		for (Object j : a) {
+			
+			System.out.println(j);
+			
+		}
+		
+		// using lamda expression
+		
+		
+		a.forEach(u->System.out.println(u));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

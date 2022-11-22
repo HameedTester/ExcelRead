@@ -1,0 +1,22 @@
+package com.org.test.demo;
+
+class Father {
+	void car() {
+		System.out.println("Father Car");
+	}
+}
+
+class Son extends Father {
+	void bike() {
+		System.out.println("Son Bike");
+	}
+}
+
+
+public class Family {
+	public static void main(String[] args) {
+		Son s = new Son();
+		s.bike();
+		s.car();
+	}
+}

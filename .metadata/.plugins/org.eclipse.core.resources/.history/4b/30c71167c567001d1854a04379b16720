@@ -1,0 +1,25 @@
+package dataType;
+
+public class LadderControlStatements {
+	
+	int num =24;
+	
+	
+	public void ladderStatements()
+	{
+		
+		
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		LadderControlStatements l = new LadderControlStatements();
+		l.ladderStatements();
+		
+		
+		
+	}
+
+}

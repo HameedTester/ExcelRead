@@ -1,0 +1,19 @@
+package inheritanceDemo;
+
+public class FathersHouse extends GrandFatherHouse {
+	
+	
+	public void audiCar() // audicar, ambassdorcar, bicycle, porschecar
+	{
+		
+		
+		System.out.println("Fathers Audi Car");
+	}
+	
+	public void ambassdorCar()
+	{
+		
+		System.out.println("Fathers Ambassdor Car");
+	}
+
+}

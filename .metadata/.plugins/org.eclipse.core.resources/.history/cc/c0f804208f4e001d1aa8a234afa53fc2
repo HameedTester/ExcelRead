@@ -1,0 +1,21 @@
+package scannerDemo;
+
+public class ScannerDemoTwo {
+	
+	String s1;
+	String s2;
+	
+	
+	public void stringScannerDemo()
+	{
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		ScannerDemoTwo s = new ScannerDemoTwo();
+		s.stringScannerDemo();
+	}
+
+}

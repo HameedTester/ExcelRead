@@ -1,0 +1,35 @@
+package com.testng.project;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Assertions {
+
+	@Test
+
+	public void hardAssert()
+	{
+
+		System.out.println("Hi this is Hard Assertion");
+		
+		String s1="Govind";
+		
+		String s2="GovindRaj";
+		
+		Assert.assertEquals(s1, s2, "Both the Strings are Not Equals");//
+		
+		System.out.println("End of Assertion");
+		
+
+
+	}
+	
+	@Test
+     public void testDemo()
+     {
+    	 
+    	 
+    	 System.out.println("Hi this is second testcase");
+    	 
+     }
+}

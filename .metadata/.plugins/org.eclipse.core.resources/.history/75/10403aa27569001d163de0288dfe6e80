@@ -1,0 +1,41 @@
+package dataType;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+		
+		LinkedList<object>l=new LinkedList ();
+		
+
+		l.add("oranium tech");
+		l.add(23);
+		l.add(4343545.56767f);
+		l.add(null);
+		l.add("oranium tech");
+		l.add(null);
+		l.add(null);
+		
+		System.out.println(l);
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

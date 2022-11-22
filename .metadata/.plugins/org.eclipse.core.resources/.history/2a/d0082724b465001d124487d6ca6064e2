@@ -1,0 +1,33 @@
+package seleniumMaven;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class SeleniumFirstClass {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		//driver path
+		
+		WebDriverManager.chromedriver().setup();// it is used to tell the driver path
+		
+		// Blank url launch
+		
+		
+		WebDriver driver = new ChromeDriver()// it will launch the blank url
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+
+}

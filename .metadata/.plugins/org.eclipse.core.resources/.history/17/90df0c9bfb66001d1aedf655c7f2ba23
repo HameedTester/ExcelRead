@@ -1,0 +1,29 @@
+package dataType;
+
+public class RelationalOperator {
+	
+	
+	int a =20;
+	
+	int b =30;
+	
+	
+	public void relationalOperator()
+	{
+		
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		RelationalOperator r = new RelationalOperator();
+		r.relationalOperator();
+		
+	}
+	
+	
+	
+
+}

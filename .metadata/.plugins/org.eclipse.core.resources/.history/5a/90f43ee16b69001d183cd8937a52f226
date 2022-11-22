@@ -1,0 +1,53 @@
+package dataType;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) 
+	{
+		
+		ArrayList<Object>a=new ArrayList ();
+		
+		a.add("oranium");
+		a.add(23);
+		a.add(243434.5656f);
+		a.add("oranium");
+		a.add(null);
+		a.add  ( null);
+		
+		System.out.println(a);
+		//iterations
+		//using enhanced for loop
+		System.out.println("=============>");
+		
+		for(Object j:a)
+		{
+		System.out.println(j);	
+			
+		}
+		System.out.println("----------->");
+		
+		a.forEach(u->System.out.println(u));
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

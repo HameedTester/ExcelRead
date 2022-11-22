@@ -1,0 +1,12 @@
+package encapsulationDemo;
+
+public class MyHome {
+	
+	
+	
+	public static void main(String[] args) {
+		
+	}
+	
+
+}

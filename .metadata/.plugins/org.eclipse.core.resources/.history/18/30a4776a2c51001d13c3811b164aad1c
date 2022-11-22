@@ -1,0 +1,15 @@
+package inheritanceDemo;
+
+public interface InterFaceDemoProject {
+	
+	
+	
+	public void addNumbers(); // Fully Abstract method
+	
+	public void subNumbers();
+	
+	public void mulNumbers();
+	
+	
+
+}

@@ -1,0 +1,48 @@
+package dataType;
+
+public class ConstructorDemo {
+	
+	
+	int a;
+	int b;
+	
+	
+	
+	// create a constructor
+	
+	ConstructorDemo()  // non parameter constructor or default constructor
+	{
+		// to initialize the variables
+		a=10;
+		b=20;
+		
+		System.out.println(a+b);
+		
+	}
+	
+	ConstructorDemo(int a, int b)  // non parameter constructor or default constructor
+	{
+		System.out.println(a-b);
+		
+	}
+	
+	ConstructorDemo(int a, float b)  // non parameter constructor or default constructor
+	{
+		System.out.println(a*b);
+		
+	}
+	ConstructorDemo(float a, int b)  // non parameter constructor or default constructor
+	{
+		System.out.println(a/b);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		ConstructorDemo c = new ConstructorDemo();// default constructor
+		
+		
+	}
+
+}

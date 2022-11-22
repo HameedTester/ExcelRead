@@ -1,0 +1,30 @@
+package scannerDemo;
+
+import java.util.Scanner;
+
+public class ScannerDemoTwo {
+	
+	String s1;
+	String s2;
+	
+	
+	public void stringScannerDemo()
+	{
+		
+		
+		Scanner sc = new Scanner(System.in);
+		s1 = sc.nextLine();
+		s2 = sc.nextLine();
+		
+		System.out.println("Concatenate the String:"+(s1+s2));
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		ScannerDemoTwo s = new ScannerDemoTwo();
+		s.stringScannerDemo();
+	}
+
+}

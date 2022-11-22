@@ -1,0 +1,24 @@
+package arrayDemo;
+
+public class ArrayDemoProject {
+	
+	int a[] = {23,45,67,809,34,56,87,90,12};
+	
+	
+	public void arrayDemo()
+	{
+		
+		
+	}
+
+	
+	public static void main(String[] args)
+	{
+		
+		
+		ArrayDemoProject a = new ArrayDemoProject();
+		a.arrayDemo();
+		
+		
+	}
+}

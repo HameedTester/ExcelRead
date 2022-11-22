@@ -1,0 +1,35 @@
+package com.testng.project;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Assertion {
+	
+	
+	
+	
+	
+	@Test
+	public void hardAssert()
+	{
+		
+		
+		String s1="Chrompet";
+		String s2="Velachery";
+		
+		Assert.assertEquals(s1, s2, "Both the Strings are Not Equal");
+		
+		
+		
+		
+	}
+	
+	@Test
+	public void softAssert()
+	{
+		
+		
+		
+	}
+
+}

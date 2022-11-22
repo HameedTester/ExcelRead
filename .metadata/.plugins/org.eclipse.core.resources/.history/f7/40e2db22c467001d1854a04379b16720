@@ -1,0 +1,27 @@
+package dataType;
+
+public class NestedIfControl {
+	
+	
+	int num =24;
+	
+	
+	public void nestedStatement()
+	{
+		
+		
+		
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		
+		NestedIfControl n = new NestedIfControl();
+		n.nestedStatement();
+		
+		
+	}
+	
+
+}

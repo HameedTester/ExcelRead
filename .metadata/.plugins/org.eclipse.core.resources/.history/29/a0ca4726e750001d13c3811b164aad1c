@@ -1,0 +1,16 @@
+package abstractionDemoProject;
+
+public class FatherHouse {
+
+
+
+	public void audiCar() // 
+	{
+
+		System.out.println("Fathers Audi Car");
+
+	}
+
+	public void porscheCar();
+
+}

@@ -1,0 +1,68 @@
+package com.testng.project;
+
+public class AllAnnotationInTestng {
+	
+	
+	public void beforeSuite()
+	{
+		
+		System.out.println("Before Suite in Testng");
+	}
+	
+	public void beforeTest()
+	{
+		
+		System.out.println("Before Test in Testng");
+	}
+	
+	public void beforeClass()
+	{
+		
+		System.out.println("Before Class in Testng");
+	}
+	
+	public void beforeMethod()
+	{
+		
+		System.out.println("Before Method in Testng");
+	}
+	
+	public void testCaseOne()
+	{
+		
+		
+		System.out.println("First Test Case");
+	}
+	
+	public void secondTestCAse()
+	{
+		
+		System.out.println("Second Test Case");
+	}
+	
+	
+	public void afterMethod()
+	{
+		
+		System.out.println("After Method");
+	}
+	
+	public void afterClass()
+	{
+		
+		System.out.println("After Class");
+	}
+	
+	public void afterTest()
+	{
+		
+		System.out.println("After Test");
+	}
+	
+	public void afterSuite()
+	{
+		
+		System.out.println("After suite");
+	}
+
+}

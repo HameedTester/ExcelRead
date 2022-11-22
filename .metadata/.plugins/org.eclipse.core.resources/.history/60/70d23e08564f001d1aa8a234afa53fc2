@@ -1,0 +1,46 @@
+package methodDemo;
+
+public class MethodDemoProject {
+
+	int a =10; //Global variable
+	int b =20;
+	
+	
+	public void addNumbers() // without returntype and without parameter
+	{
+		System.out.println("Method Without Parameters:"+(a+b));
+		
+	}
+	
+	public void subNumbers(int a, int b)  // local variable // without return Type with parameter
+	{
+		
+		System.out.println(a-b);
+	}
+	
+	public int mulNumbers()// with returnType without parameter
+	{
+		
+		return a*b;
+		
+	}
+	
+	public int divNumbers(int a, int b)
+	{
+		
+		return a/b;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		MethodDemoProject m = new MethodDemoProject();
+		m.addNumbers();
+		m.subNumbers(30, 20);
+		
+		System.out.println(m.mulNumbers());
+		System.out.println(m.divNumbers(40, 20));
+	}
+	
+	
+}

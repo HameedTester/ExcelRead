@@ -1,0 +1,20 @@
+package dataType;
+
+public class ConstructorDemo {
+	
+	
+	int a;
+	int b;
+	
+	
+	
+	// create a constructor
+	
+	ConstructorDemo()
+	{
+		
+		
+		
+	}
+
+}

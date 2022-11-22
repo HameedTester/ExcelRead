@@ -1,0 +1,11 @@
+package finalDemoProject;
+
+public class Childclass {
+
+		public static void main(String[] args) {
+
+		Childclass c = new Childclass();
+		
+	}
+
+}

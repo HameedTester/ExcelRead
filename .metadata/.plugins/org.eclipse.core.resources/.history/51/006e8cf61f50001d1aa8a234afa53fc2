@@ -1,0 +1,9 @@
+package interfaceDemo;
+
+public interface ParentCalculator {
+	
+	
+	
+	
+
+}

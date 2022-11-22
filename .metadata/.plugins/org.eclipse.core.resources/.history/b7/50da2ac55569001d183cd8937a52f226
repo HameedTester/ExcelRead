@@ -1,0 +1,24 @@
+package dataType;
+
+public class LoopsInJava {
+
+
+	int num=10;
+
+	public void loopsJava()
+	{
+
+
+	}
+
+	public static void main(String[] args)
+	{
+
+
+		LoopsInJava l = new LoopsInJava();
+		l.loopsJava();
+
+	}
+
+
+}

@@ -1,0 +1,20 @@
+package seleniumMaven;
+
+public class SonClass {
+	
+	
+	public void ktmBike()
+	{
+		
+		
+		System.out.println("Sons KTM Bike");
+	}
+	
+	public void audiCar()
+	{
+		
+		
+		System.out.println("Sons Audi Car");
+	}
+
+}

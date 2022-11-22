@@ -1,0 +1,25 @@
+package methodDemo;
+
+public class ArrayOneDimensional {
+
+
+	int arr[][] = {{23,25,65,76,87,98},
+			      {34,65,76,87,43,23}};
+
+
+	public void arrayDemo(){
+
+		System.out.println(arr[0].length);// no of rows
+		
+	}
+
+	public static void main(String[] args) {
+
+
+		ArrayOneDimensional a = new ArrayOneDimensional();
+		a.arrayDemo();
+
+	}
+
+
+}

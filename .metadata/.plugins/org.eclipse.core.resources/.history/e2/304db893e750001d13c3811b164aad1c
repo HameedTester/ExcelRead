@@ -1,0 +1,19 @@
+package abstractionDemoProject;
+
+public class SonHouse {
+	
+	
+	public void ktmBike()
+	{
+		
+		System.out.println("Sons KTM Bike");
+		
+	}
+	
+	public void benzzCar()
+	{
+		
+		System.out.println("Sons Benzz Car");
+	}
+
+}

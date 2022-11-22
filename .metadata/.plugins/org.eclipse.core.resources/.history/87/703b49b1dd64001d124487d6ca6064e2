@@ -1,0 +1,13 @@
+package seleniumMaven;
+
+public class FatherClass {
+	
+	
+	public void audiCar()
+	
+	{
+		
+		System.out.println("Fathers Audi Car");
+	}
+
+}

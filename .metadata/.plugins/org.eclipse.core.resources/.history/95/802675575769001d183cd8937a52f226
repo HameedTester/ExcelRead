@@ -1,0 +1,26 @@
+package dataType;
+
+public class LoopsTypes {
+
+	int num =1;
+
+
+	public void loops()
+	{
+
+
+
+	}
+
+
+	public static void main(String[] args)
+	{
+
+		LoopsTypes l = new LoopsTypes();
+		l.loops();
+
+
+
+	}
+
+}

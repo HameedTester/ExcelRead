@@ -1,0 +1,35 @@
+package inheritanceDemo;
+
+public class SingleDimensionalArray {
+
+	int a[]= {12,54,67,34,76,98,23,12};
+
+
+	public void arrayDemo()
+	{
+
+		
+		for(int i=0; i<a.length;i++) //   0 ; 0<8 , 1<8
+		{
+
+			System.out.println(a[i]); //a[0]-->12, a[1]-->54
+		}
+		
+		// Enhanced For Loop
+		
+		
+		for(int k:a)
+		{
+			System.out.println(k);
+			
+		}
+
+	}
+	public static void main(String[] args) {
+
+		SingleDimensionalArray s = new SingleDimensionalArray();
+		s.arrayDemo();
+
+	}
+
+}

@@ -1,0 +1,74 @@
+package arrayDemo;
+
+public class ArrayDemoProject {
+	
+	int a[] = {23,45,67,809,34,56,87,90,12};
+	
+	
+	public void arrayDemo()
+	{
+//		System.out.println(a[4]);
+//		System.out.println(a[0]);
+//		System.out.println(a[1]);
+//		System.out.println(a[2]);
+//		System.out.println(a[3]);
+//		System.out.println(a[5]);
+//		System.out.println(a[6]);
+//		System.out.println(a[7]);
+//		System.out.println(a[8]);
+//		System.out.println(a[9]);
+//	
+		//without length() using for loop // selective for loop
+//	
+//	for(int i=0; i<5;i++)  // 0// 0<9 , 1<9
+//	{
+//		
+//		System.out.println(a[i]); //a[0] -->23-->a[1]-->45
+//		
+//	}
+	
+//	
+	
+	// using length() Field in for loop
+		
+		
+		for(int v=0; v<a.length;v++)
+		{
+			
+			System.out.println(a[v]);
+		}
+		
+	}
+//	
+	
+	// Enhanced for Loop
+		
+		
+		// for(datatype tempvariable:currentvariable)
+//		{
+//			
+//			System.out.println(tempvaraibale);
+//		}
+//		
+//		
+//		for(int k:a)
+//		{
+//			
+//		System.out.println(k);
+//		
+//		}
+//		
+//	
+	}
+
+	
+	public static void main(String[] args)
+	{
+		
+		
+		ArrayDemoProject a = new ArrayDemoProject();
+		a.arrayDemo();
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+package org.com.oraniumtech;
+
+public interface EmployeePersonalDetails extends EmployeeOfficialDetails {
+	String name = "Sundar";
+	
+	int phoneNumber = 123456789;
+	
+	String emailId = "sundar@oraniumtech.com";
+	
+	String dob = "16-06-2000";
+	
+	String address = "Chennai-91";
+	
+}

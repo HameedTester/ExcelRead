@@ -1,0 +1,24 @@
+package loopsDemo;
+
+public class LoopsDemo {
+	
+	// datatype variablename = data;
+	
+	int num = 1;
+	
+	public void loopsDemo()
+	{
+		
+		
+		System.out.println();
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		LoopsDemo l = new LoopsDemo();
+		l.loopsDemo();
+		
+	}
+
+}

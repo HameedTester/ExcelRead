@@ -1,0 +1,21 @@
+package methodOverloadingProgram;
+
+public class MethodOverloadingProgram {
+
+
+	int a = 10; // Global Variables
+	int b = 20;
+
+
+	public void addNumbers()
+	{
+
+
+	}
+	public void addNumbers()
+	{
+		
+		
+	}
+
+}

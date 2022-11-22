@@ -1,0 +1,16 @@
+package seleniumMaven;
+
+public class Encapsulation {
+	
+	
+	private int locker=1000;
+
+	public int getLocker() {
+		return locker;
+	}
+
+	public void setLocker(int locker) {
+		this.locker = locker;
+	}
+
+}

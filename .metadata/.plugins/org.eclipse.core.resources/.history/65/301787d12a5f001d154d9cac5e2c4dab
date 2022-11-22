@@ -1,0 +1,36 @@
+package swathi;
+
+public class ControlStatement {
+
+int num =13;
+
+public void evencheck () {
+	if(num%2==0)
+	{
+		System.out.println("even number");
+	}
+	
+	
+	
+}
+public static void main(String[] args) {
+ControlStatement c	 = new ControlStatement ();
+c .evencheck ();
+	
+	
+	
+	
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package com.testng.project;
+
+public class Data {
+	
+	
+	public void facebookLogin()
+	{
+		
+		
+		
+		
+	}
+
+}

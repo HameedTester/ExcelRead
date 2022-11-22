@@ -1,0 +1,28 @@
+package dataType;
+
+public class SwitchCaseControl {
+
+
+	String  proof ="Pan";
+	
+	
+	public void switchDemo()
+	{
+		
+		
+		
+	}
+	
+	
+	
+	public static void main(String[] args)
+	{
+		
+		SwitchCaseControl s = new SwitchCaseControl();
+		s.switchDemo();
+		
+		
+		
+	}
+
+}

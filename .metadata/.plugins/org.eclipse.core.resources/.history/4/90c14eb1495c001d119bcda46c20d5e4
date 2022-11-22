@@ -1,0 +1,33 @@
+package arrayDemo;
+
+public class TwoDimensionalArray {
+	
+	int a[][] = {
+			
+			
+			{12,23,45},
+			{23,54,65},
+			{89,56,89},
+			
+			
+	};
+	
+	
+	public void twoDimensional()
+	{
+		
+		
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		
+		TwoDimensionalArray t = new TwoDimensionalArray();
+		t.
+		
+		
+	}
+
+}

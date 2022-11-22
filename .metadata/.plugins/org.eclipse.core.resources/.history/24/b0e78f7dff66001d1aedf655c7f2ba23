@@ -1,0 +1,23 @@
+package dataType;
+
+public class IncrementOperator {
+	
+	
+	int a =10;
+	
+	
+	public void incrementOperator()
+	{
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		
+		
+		IncrementOperator i =  new IncrementOperator();
+		i.incrementOperator();
+		
+	}
+}

@@ -1,0 +1,28 @@
+package loopsDemo;
+
+import java.util.Scanner;
+
+public class ScannerDemo {
+
+	int var1;
+	int var2;
+
+	public void addNumbers()
+	{
+
+		Scanner sc = new Scanner(System.in);
+		int var1 = sc.nextInt();
+		int var2 = sc.nextInt();
+
+		System.out.println("Addition is:" + (var1+var2));
+
+		sc.close();
+	}
+
+
+	public static void main(String[] args) {
+
+		ScannerDemo s = new ScannerDemo();
+		s.addNumbers();
+	}
+}

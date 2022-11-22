@@ -1,0 +1,33 @@
+package com.org.test.demo;
+
+class GrandFather {
+	void house() {
+		System.out.println("Grand father House");
+	}
+}
+
+
+class Father extends GrandFather {
+	void car() {
+		System.out.println("Father Car");
+	}
+}
+
+class Son extends Father {
+	void bike() {
+		System.out.println("Son Bike");
+	}
+}
+
+
+public class Family {
+	public static void main(String[] args) {
+		Son s = new Son();
+		s.bike();
+		s.car();
+		
+		Father f = new Father();
+		f.car();
+		f.house();
+	}
+}

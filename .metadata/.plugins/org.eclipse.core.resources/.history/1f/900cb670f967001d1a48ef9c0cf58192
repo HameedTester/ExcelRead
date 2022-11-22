@@ -1,0 +1,15 @@
+package dataType;
+
+public class LinkedListDemo {
+	
+	
+	public static void main(String[] args) {
+		
+		LinkedArrayList<> l = new LinkedArrayList();
+		
+		
+		
+		
+	}
+
+}

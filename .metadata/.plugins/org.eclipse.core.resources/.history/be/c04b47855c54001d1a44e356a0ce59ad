@@ -1,0 +1,28 @@
+package methodOverloadingProgram;
+
+public class MethodOverloadingProgram {
+
+
+	int a = 10; // Global Variables
+	int b = 20;
+
+
+	public void addNumbers() // without parameter
+	{
+		System.out.println(a+b); //10+20
+
+	}
+
+	public void addNumbers(int a, int b) // global variables
+	{
+
+		System.out.println(a-b);	
+	}
+	
+	public static void main(String[] args) {
+		MethodOverloadingProgram m = new MethodOverloadingProgram();
+		m.addNumbers();
+		m.addNumbers(20, 10);
+	}
+
+}

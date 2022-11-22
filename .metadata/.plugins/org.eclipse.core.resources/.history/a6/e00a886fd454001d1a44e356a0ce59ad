@@ -1,0 +1,21 @@
+package finalDemoProject;
+
+public class ParentClass {
+
+	int empSalary = 10000;
+
+
+	public void empDetails()
+	{
+
+
+		System.out.println("Employee Details");
+	}
+
+	public void empAddress()
+	{
+
+		System.out.println("Employee Address");
+	}
+
+}

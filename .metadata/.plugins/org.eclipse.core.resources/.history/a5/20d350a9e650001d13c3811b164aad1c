@@ -1,0 +1,21 @@
+package org.com.oraniumtech;
+
+public class ErrorHandlngDemo {
+	int a = 5;
+	
+	void divide() {
+		try {
+			System.out.println(5/0);
+		} catch(Exception error) {
+			System.out.println(error.getMessage());
+		} finally {
+			System.out.println(10 / 5);
+		}
+//		System.out.println(5/0);
+	}
+	
+	public static void main(String[] args) {
+		ErrorHandlngDemo err = new ErrorHandlngDemo();
+		err.divide();
+	}
+}

@@ -1,0 +1,25 @@
+package starPattern;
+
+public class ScannerClassDemo {
+	
+	
+	int a;
+	
+	int b;
+	
+	
+	public void addNumbers()
+	{
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		ScannerClassDemo s = new ScannerClassDemo();
+		s.addNumbers();
+		
+	}
+
+}

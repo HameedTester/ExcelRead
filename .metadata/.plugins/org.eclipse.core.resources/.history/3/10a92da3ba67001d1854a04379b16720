@@ -1,0 +1,48 @@
+package stepDefinition;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class ScenarioOutline {
+	WebDriver driver;
+
+	@Given("^Launch the Browser $")
+	public void launch_the_browser()  {
+
+
+		WebDriverManager.chromedriver().setup();
+
+		driver = new ChromeDriver();
+
+		driver.get("https://www.facebook.com");
+
+		System.out.println("Launch the URL Successfully");
+	}
+
+	@When("^Enter the  (.+) and (.+)$")
+	public void enter_the_and(String username, String password)  {
+		
+		WebElement textBox = driver.findElement(By.id("email"));
+		textBox.sendKeys(username);
+
+		WebElement passBox = driver.findElement(By.id("pass"));
+		passBox.sendKeys(password);
+	}
+
+	@Then("^Click the Login Button$")
+	public void click_the_login_button() {
+	}
+
+	@And("^Verify the Output$")
+	public void verify_the_output()  {
+	}
+
+
+}

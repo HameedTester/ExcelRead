@@ -1,0 +1,39 @@
+package loopDemo;
+
+public class LoopDemoProgram {
+	
+	int num =1;
+	
+	public void oddEvenCheck()
+	{
+		
+		while(num<=100)
+			
+		{
+			
+			if(num%2==0)
+			{
+				
+				System.out.println(num + " Is a Even Number ");
+				
+			}
+			
+			else
+			{
+				
+				System.out.println(num+ " Is a Odd Number");
+			}
+			num++;
+		}
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		
+		LoopDemoProgram l = new LoopDemoProgram();
+		l.oddEvenCheck();
+	
+}
+}

@@ -1,0 +1,15 @@
+package com.testng.project;
+
+import org.testng.annotations.Test;
+
+public class DataProviderLogin {
+	
+	@Test
+	public void facebookLogin()
+	{
+		
+		
+		
+	}
+
+}

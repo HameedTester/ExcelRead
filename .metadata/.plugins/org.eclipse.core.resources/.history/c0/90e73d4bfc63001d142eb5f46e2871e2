@@ -1,0 +1,30 @@
+package com.testng.project;
+
+public class AllAnnotationInTestng {
+	
+	
+	public void beforeSuite()
+	{
+		
+		System.out.println("Before Suite in Testng");
+	}
+	
+	public void beforeTest()
+	{
+		
+		System.out.println("Before Test in Testng");
+	}
+	
+	public void beforeClass()
+	{
+		
+		System.out.println("Before Class in Testng");
+	}
+	
+	public void beforeMethod()
+	{
+		
+		System.out.println("Before Method in Testng");
+	}
+
+}

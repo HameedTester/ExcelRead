@@ -1,0 +1,14 @@
+package seleniumMaven;
+
+public class ChildClassDemo {
+	
+	
+	public void divNumbers()
+	{
+		
+		System.out.println("Div Numbers");
+	}
+
+	
+	
+}

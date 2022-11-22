@@ -1,0 +1,37 @@
+package com.org.test.demo;
+
+public class EmployeeDemo {
+
+	String name;	
+	
+	EmployeeDemo() {
+		System.out.println("Constructor Called");
+		name = "Sundar";
+	}
+	
+	EmployeeDemo(String name) {
+		System.out.println("Constructor Overloaded");
+		this.name = name;
+	}
+	
+	
+	void add() {
+		System.out.println(name);
+	}
+	
+	
+	void subtract() {
+		
+	}
+	
+	
+//	method overloading => paramater base method call
+	public static void main(String[] args) {
+		EmployeeDemo sundar = new EmployeeDemo();
+		
+		EmployeeDemo kevin = new EmployeeDemo("Kevin");
+		
+		sundar.add();
+		kevin.add();
+	}	
+}

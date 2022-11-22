@@ -1,0 +1,97 @@
+package com.testng.project;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AnnotationInTestNG {
+
+	WebDriver driver;
+	
+	@BeforeMethod
+	public void browserLaunch()
+	{
+
+		WebDriverManager.chromedriver().setup();
+
+		driver = new ChromeDriver();
+
+		driver.get("https://www.facebook.com/");
+
+		driver.manage().window().maximize();
+
+		System.out.println("Browser Starts to Launch from Here");
+
+	}
+
+
+
+	@Test
+	public void faceBookLogin() // test case
+	{
+
+
+
+
+		WebElement userText = driver.findElement(By.name("email"));
+		userText.sendKeys("oranium");
+
+		WebElement passText = driver.findElement(By.name("pass"));
+		passText.sendKeys("pass");
+
+
+		WebElement buttonLogin = driver.findElement(By.xpath("//button[@type=\"submit\"]"));
+		buttonLogin.click();
+
+		System.out.println("Actual Test Case Starts From Here");
+
+
+
+
+	}
+	
+	
+	
+	
+	public void amazonLogin()
+	{
+		
+		WebDriverManager.chromedriver().setup();
+		
+		driver = new ChromeDriver();
+		
+		
+		driver.get("https://www.amazon.in/");
+		
+		driver.manage().window().maximize();
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+
+	@AfterMethod
+	public void closeBrowser()
+	{
+
+
+		driver.close();
+
+		System.out.println("Close the Browser");
+
+
+	}
+
+}

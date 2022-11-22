@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Lenovo\eclipse-workspace\CucumberSecondDemo\src\test\java\feature\feature.feature"/>
+			<item value="C:\Users\Lenovo\eclipse-workspace\SeleniumMavenProject\src\test\java\com\testng\project\DataProvider.java"/>
+			<item value="C:\Users\Lenovo\eclipse-workspace\SeleniumMavenProject\pom.xml"/>
+			<item value="C:\Users\Lenovo\eclipse-workspace\SeleniumMavenProject\src\test\java\seleniumMaven\ActionClassDemo.java"/>
+			<item value="C:\Users\Lenovo\eclipse-workspace\SeleniumMavenProject\src\test\java\seleniumMaven\TableHandlingInSelenium.java"/>
+			<item value="C:\Users\Lenovo\eclipse-workspace\SeleniumMavenProject\src\test\java\seleniumMaven\FirstTestNGProject.java"/>
+			<item value="C:\Users\Lenovo\eclipse-workspace\SelenimProjectUsingMaven\pom.xml"/>
+			<item value="C:\Users\Lenovo\eclipse-workspace\SelenimProjectUsingMaven"/>
+			<item value="C:\Users\Lenovo\eclipse-workspace\SeleniumFirstDemoProject\driver"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="CucumberDemoFourth"/>
+			<item value="CucumberSecondDemo"/>
+			<item value="TestNGProjectThirdDemo"/>
+			<item value="TestngFirstDemoClass"/>
+			<item value="TestNGProject"/>
+			<item value="Cucumber"/>
+			<item value="CucumberProjectDemo"/>
+			<item value="MavenSeleniumFirstProject"/>
+			<item value="CucumberProject"/>
+			<item value="MyFirstMavenSeleniumProject"/>
+			<item value="MavenProjectThird"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="CucumberDemoFourth"/>
+			<item value="CucumberSecondDemo"/>
+			<item value="TestNGProjectThirdDemo"/>
+			<item value="TestngFirstDemoClass"/>
+			<item value="TestNGProject"/>
+			<item value="Cucumber"/>
+			<item value="CucumberProjectDemo"/>
+			<item value="MavenSeleniumFirstProject"/>
+			<item value="CucumberProject"/>
+			<item value="MyFirstMavenSeleniumProject"/>
+			<item value="MavenProjectThird"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

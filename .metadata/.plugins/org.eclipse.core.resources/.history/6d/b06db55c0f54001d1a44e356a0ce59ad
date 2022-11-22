@@ -1,0 +1,41 @@
+package inheritanceDemo;
+
+public class TwoDimensionalArray {
+
+	int arr[][]= {
+
+
+			{12,32,45},
+			{43,56,76},
+			{54,34,20,21,43,54},
+
+
+	};
+
+
+	public void twoDeminesionalArray()
+	{
+
+		for(int row=0; row<3; row++)
+		{
+
+			for(int col=0; col<arr[row].length; col++)
+			{
+
+				System.out.print(arr[row][col]+" ");
+
+			}
+			System.out.println();
+
+		}
+
+	}
+
+
+	public static void main(String[] args) {
+
+		TwoDimensionalArray t = new TwoDimensionalArray();
+		t.twoDeminesionalArray();
+
+	}
+}

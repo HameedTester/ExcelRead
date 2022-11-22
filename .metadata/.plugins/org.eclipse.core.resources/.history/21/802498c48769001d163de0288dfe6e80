@@ -1,0 +1,13 @@
+
+Feature: Verifying the Login Functionality of Facebook
+  
+  
+  Scenario: Verify the Login Functionality
+    Given User Launch the Desired Browser
+    
+    When User Enters username "oranium@gmail.com" and password "pass@123"
+    
+    Then User Click the Login Button
+    And Verifying the Outcome
+
+ 

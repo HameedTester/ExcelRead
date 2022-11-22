@@ -1,0 +1,23 @@
+package finalDemoProject;
+
+public class Childclass {
+
+	int a[][] = {
+			{23,45,67},
+			{34,65,78},
+			{54,88,90,91,32},
+
+	};
+
+	public void arrayDemo()
+	{
+
+	System.out.println(a[0][1]);
+	}
+	public static void main(String[] args) {
+
+		Childclass c = new Childclass();
+		c.arrayDemo();
+	}
+
+}

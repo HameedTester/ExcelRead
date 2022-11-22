@@ -1,0 +1,45 @@
+package swathi;
+
+public class ControlStatement {
+int arr[]= {12,34,44,57,98};
+int tarr[][]=
+
+{
+		{12,23,34,},
+		{45,56,67},
+		{78,89,90},
+		
+};
+public void array() {
+	
+	System.out.println(tarr);//address
+	System.out.println(tarr[1][1]);//56
+	System.out.println(arr.length);
+	
+	
+} 
+		
+		
+		
+
+public static void main(String[] args) {
+ControlStatement c	 = new ControlStatement ();
+c . array();
+	
+	
+	
+	
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

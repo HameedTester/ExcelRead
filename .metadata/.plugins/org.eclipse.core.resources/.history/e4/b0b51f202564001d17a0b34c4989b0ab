@@ -1,0 +1,27 @@
+package seleniumMaven;
+
+public class MyHomeClass {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		MyFriendHome m = new MyFriendHome();
+		
+//		System.out.println(m.lockerAmount);
+//		
+//		m.lockerAmount=10500;
+//		
+//		System.out.println(m.lockerAmount);
+		
+		
+		System.out.println(m.getLockerAmount());
+		
+		
+		
+		
+		
+		
+	}
+
+}

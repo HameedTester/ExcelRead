@@ -1,0 +1,40 @@
+package dataType;
+
+public class OverLoadingPractice {
+
+	int var1=12;
+	int var2=10;
+	
+	public void add() {
+		
+		
+		System.out.println(var1 + var2);
+		
+		
+		
+	}
+	public static void main(String[] args) {
+		
+		OverLoadingPractice o = new OverLoadingPractice ();
+		o.add();
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

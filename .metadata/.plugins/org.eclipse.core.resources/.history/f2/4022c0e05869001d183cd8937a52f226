@@ -1,0 +1,21 @@
+package dataType;
+
+public class UsingForLoop {
+
+
+	public void forLoop()
+	{
+
+
+
+	}
+
+	public static void main(String[] args)
+	{
+
+		UsingForLoop u = new UsingForLoop();
+		u.forLoop();
+
+	}
+
+}

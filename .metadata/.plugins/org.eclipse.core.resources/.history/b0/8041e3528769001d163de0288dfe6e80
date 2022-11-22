@@ -1,0 +1,52 @@
+package stepDefinition;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class StepDefinitionFile {
+	
+	WebDriver driver;
+	
+	@Given("User Launch the Desired Browser")
+	public void user_launch_the_desired_browser() {
+		
+		WebDriverManager.chromedriver().setup();
+		
+		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://www.facebook.com/");
+		
+		
+		
+	}
+
+	@When("User Enters username {string} and password {string}")
+	public void user_enters_username_and_password(String username, String password) {
+		
+		
+		WebElement userText = driver.findElement(By.id("email"));
+		userText.sendKeys(username);
+		
+		WebElement passWord = driver.findElement(By.id("pass"));
+		passWord.sendKeys(password);
+		
+	}
+
+	@Then("User Click the Login Button")
+	public void user_click_the_login_button() {
+	}
+
+	@Then("Verifying the Outcome")
+	public void verifying_the_outcome() {
+	}
+
+}

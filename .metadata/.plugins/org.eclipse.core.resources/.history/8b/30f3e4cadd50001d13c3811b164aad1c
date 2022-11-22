@@ -1,0 +1,15 @@
+package methodDemo;
+
+public class ArrayOneDimensional {
+
+
+	int arr[] = {23,25,65,76,87,98};
+
+
+	public void arrayDemo(){
+
+
+
+	}
+
+}

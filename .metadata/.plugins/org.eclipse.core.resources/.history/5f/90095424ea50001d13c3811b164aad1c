@@ -1,0 +1,28 @@
+package oneDimensionalArray;
+
+public class OneDimensionalArray {
+
+	int a[] = {2,6,4,8,9,10,34};// index bassed --> length is 7, index--> 6
+
+
+	public void arrayDemo()
+	{
+
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+		System.out.println(a[3]);
+		System.out.println(a[4]);
+		System.out.println(a[5]);
+		System.out.println(a[6]);
+		
+
+	}
+
+	public static void main(String[] args) {
+
+		OneDimensionalArray o = new OneDimensionalArray();
+		o.arrayDemo();
+
+	}
+}

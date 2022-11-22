@@ -1,0 +1,17 @@
+package finalDemoProject;
+
+public class Parentclass {
+	
+	public void addNumbers()
+	{
+		
+		System.out.println("Addition of Two Numbers");
+	}
+	
+	public void subNumbers()
+	{
+		
+		System.out.println("Subraction of Two Numbers");
+	}
+
+}

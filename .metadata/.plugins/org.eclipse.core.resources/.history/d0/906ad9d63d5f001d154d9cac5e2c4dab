@@ -1,0 +1,40 @@
+package swathi;
+
+public class ControlStatement {
+
+int arr[]= {12,34,45,67,78};
+
+public void gradecheck () {
+	System.out.println("reversing array");
+	for(int i=4;i>=0;i--)
+	{
+		
+	System.out.println(arr[i]);	
+	}
+		
+		
+		
+		
+		
+}
+public static void main(String[] args) {
+ControlStatement c	 = new ControlStatement ();
+c .gradecheck ();
+	
+	
+	
+	
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

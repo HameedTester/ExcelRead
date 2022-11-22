@@ -1,0 +1,187 @@
+package seleniumMaven;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class WindowsHandlingInSelenium {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		WebDriverManager.chromedriver().setup();
+
+		WebDriver driver = new ChromeDriver();
+
+//		driver.get("https://demoqa.com/browser-windows");
+//
+//		driver.manage().window().maximize();
+//
+//		String parentWindow = driver.getWindowHandle();// the address of the Parent or Main windows should be stored in webelement
+//
+//		System.out.println(parentWindow);
+//
+//		WebElement button = driver.findElement(By.id("tabButton"));
+//
+//		button.click();
+//
+//
+//		Set<String> allWindows = driver.getWindowHandles();// set dosent allow any duplicates
+//
+//		// way 1 to switch to parent from destinated child windows
+//
+//		System.out.println(allWindows);
+
+		//List<String> l = new ArrayList<String>(allWindows);
+
+		// syntax to switch one window to another
+
+		//		driver.switchTo().window(l.get(1));
+		//				
+		//		WebElement sampleText = driver.findElement(By.xpath("//h1[text()='This is a sample page']"));
+		//		String text = sampleText.getText();
+		//		
+		//		System.out.println(text);
+		//		
+		//		
+		//		Thread.sleep(3000);
+		//		
+		//		driver.switchTo().window(l.get(0));
+
+
+		// way to achieve windows handling
+
+		//		for (String child : allWindows) {
+		//			
+		//			
+		//			if(!parentWindow.equals(child))
+		//			{
+		//				
+		//				driver.switchTo().window(child);
+		//				
+		//				WebElement sampleText = driver.findElement(By.xpath("//h1[text()='This is a sample page']"));
+		//				String text = sampleText.getText();
+		//				
+		//				System.out.println(text);
+		//				
+		//			}
+		//			
+		//			
+		//		}
+		//		
+//		//		driver.switchTo().window(parentWindow);
+//
+//
+//
+//		// way 3 to achieve windows Handling 
+//
+//
+//		int count=0;
+//
+//
+//		for (String child : allWindows) {
+//
+//
+//
+//
+//			if(count==1)
+//			{
+//
+//				driver.switchTo().window(child);
+//
+//				WebElement sampleText = driver.findElement(By.xpath("//h1[text()='This is a sample page']"));
+//				String text = sampleText.getText();
+//
+//			//	System.out.println(text);
+//
+//			}
+//
+//
+//			count++;	
+//
+//		}
+//		
+//		driver.switchTo().window(parentWindow);
+//
+//
+		
+		
+		
+		driver.get("https://letcode.in/dropdowns");
+		
+		driver.manage().window().maximize();
+		
+		WebElement singleDrop = driver.findElement(By.id("fruits"));
+		
+		
+		Select s = new Select(singleDrop);
+		
+		s.selectByIndex(4);
+		
+		
+		s.selectByVisibleText("Mango");
+		
+		s.selectByValue("4");
+		
+	Thread.sleep(3000);
+	
+	
+	WebElement multiDrop = driver.findElement(By.id("superheros"));
+		
+	
+	Select s1 = new Select(multiDrop);
+	
+	
+	s1.selectByIndex(1);
+	
+	s1.selectByIndex(3);
+	
+	s1.selectByIndex(5);
+	
+	s1.selectByIndex(7);
+	
+	Thread.sleep(3000);
+	
+	s1.deselectByIndex(7);
+	
+	s1.deselectByIndex(1);
+	s1.deselectByIndex(3);
+	s1.deselectByIndex(5);
+	
+	
+	
+	Thread.sleep(3000);
+	
+	List<WebElement> options = s1.getOptions();
+	
+	
+	for (WebElement webElement : options) {
+		
+		System.out.println(webElement.getText());
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+}
+
+}

@@ -1,0 +1,27 @@
+package twoDimensional;
+
+public class TwoDimensional {
+
+
+	int a[][] = {
+
+			{23,45,65,78},// -- rows
+			{34,56,77,90},
+			{21,54,56,87},
+// columns
+
+	};
+			public void arrayDemo()
+			{
+				
+				
+			}
+			
+			public static void main(String[] args) {
+				TwoDimensional t = new TwoDimensional();
+				t.arrayDemo();
+			}
+
+
+
+}

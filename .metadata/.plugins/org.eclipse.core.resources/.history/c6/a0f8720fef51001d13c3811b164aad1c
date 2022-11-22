@@ -1,0 +1,23 @@
+package seleniumMaven;
+
+public interface InterfaceProgramDemo {
+
+
+	//syntax
+
+	// public interface InterfaceName 
+	//	{
+
+
+	//}
+
+
+
+	public void addNumbers();
+	
+	public void subNumbers();
+	
+	public void mulNumbers();
+
+
+}

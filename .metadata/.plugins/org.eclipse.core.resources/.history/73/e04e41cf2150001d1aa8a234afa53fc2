@@ -1,0 +1,52 @@
+package interfaceDemo;
+
+public class ChildCalc implements ParentCalculator, GrandCalculator {
+
+	public void divNumbers()
+	{
+
+		System.out.println("Division of Numbers");	
+
+	}
+
+	public void addNumbers()
+	{
+
+		System.out.println("Addition of Numbers");
+
+	}
+
+
+
+	public void subNumbers()
+	{
+
+		System.out.println("Sub Numbers");
+	}
+
+	public void mulNumbers()
+	{
+		System.out.println("Mul Numbers");
+
+	}
+
+	
+
+
+
+
+
+	public static void main(String[] args) {
+
+
+		ChildCalc c = new ChildCalc();
+		c.divNumbers();
+		c.addNumbers();
+		c.subNumbers();
+		c.mulNumbers();
+		
+
+
+	}
+
+}

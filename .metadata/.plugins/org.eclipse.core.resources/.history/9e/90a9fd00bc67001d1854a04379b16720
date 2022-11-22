@@ -1,0 +1,14 @@
+
+Feature: Verify with Multiple Credentials
+  
+
+  Scenario Outline: Title of your scenario outline
+    Given Launch the Browser 
+    When Enter the  <username> and <password>
+    Then Click the Login Button
+    And Verify the Output
+
+    Examples: 
+      | username  | password | 
+      | name1 |     5 | 
+      | name2 |     7 | 

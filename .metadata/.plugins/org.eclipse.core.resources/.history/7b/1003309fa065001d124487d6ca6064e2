@@ -1,0 +1,16 @@
+package seleniumMaven;
+
+public class MyFriendHome {
+	
+	
+	private int lockerAmount=10000;
+
+	public int getLockerAmount() {
+		return lockerAmount;
+	}
+
+	public void setLockerAmount(int lockerAmount) {
+		this.lockerAmount = lockerAmount;
+	}
+
+}

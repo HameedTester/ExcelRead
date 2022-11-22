@@ -1,0 +1,24 @@
+package com.testng.project;
+
+public class DependsOnLogin {
+	
+	
+	
+	
+	public void launchFaceBook()
+	{
+		
+		
+		
+	}
+	
+	
+	public void provideUserNameAndPassword()
+	{
+		
+		
+		
+		
+	}
+
+}

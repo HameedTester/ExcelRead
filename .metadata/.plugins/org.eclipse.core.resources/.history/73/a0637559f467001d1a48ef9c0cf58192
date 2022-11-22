@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testng.project.AnnotationAvailInTestng"/>
+      <class name="com.testng.project.MultiTestClass"/>
+      <class name="com.testng.project.AnnotationInTestNG"/>
+      <class name="com.testng.project.Data"/>
+      <class name="com.testng.project.EnableInTestNG"/>
+      <class name="com.testng.project.Assertion"/>
+      <class name="com.testng.project.AssertionInTestNG"/>
+      <class name="com.testng.project.AllAnnotationInTestng"/>
+      <class name="com.testng.project.Assertions"/>
+      <class name="com.testng.project.HardAssertInTestng"/>
+      <class name="com.testng.project.FaceBook"/>
+      <class name="com.testng.project.FaceBookMainPage"/>
+      <class name="com.testng.project.DataProviderLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

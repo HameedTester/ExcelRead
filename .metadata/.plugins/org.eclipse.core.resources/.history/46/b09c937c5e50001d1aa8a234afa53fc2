@@ -1,0 +1,39 @@
+package methodDemo;
+
+public class MethodDemo {
+
+
+	int a =10; // Global Variables
+	int b =20;
+
+	// method without returnType without parameter
+
+
+	public void addNumbers() // without returnType, without parameter
+	{
+
+		System.out.println("Additon of Two Numbers:"+(a+b));
+
+	}
+	
+	// without returnType, with Parameter
+	
+	public void subNumbers(int a, int b)   // int, float, double, string, char, boolean
+
+	{
+		
+		System.out.println(a+b);
+		
+	}
+
+	public static void main(String[] args) {
+		MethodDemo m = new MethodDemo();
+		m.addNumbers();
+	}
+
+
+
+
+
+
+}

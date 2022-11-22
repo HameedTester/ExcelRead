@@ -1,0 +1,45 @@
+package swathi;
+
+public class TwoArray {
+
+int tarr[][]= {
+		
+		{12,34,56},//0row
+	    {67,78,89,20},//1
+	    {32,76,43},	//2
+			
+		
+};
+public void PrintArray () {
+	
+	System.out.println(tarr);//address
+	System.out.println(tarr[1][1]);//78
+	System.out.println(tarr[2][2]);//43
+	System.out.println(tarr[0][0]);//12
+	System.out.println(tarr.length);
+	System.out.println(tarr[1].length);//4
+	System.out.println(tarr[0].length);//3
+	
+	
+	
+	
+	
+}
+public static void main(String[] args) {
+	
+	TwoArray t = new TwoArray ();
+	t.PrintArray();
+	
+	
+	
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+}

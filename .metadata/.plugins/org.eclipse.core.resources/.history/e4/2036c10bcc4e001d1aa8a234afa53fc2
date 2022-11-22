@@ -1,0 +1,21 @@
+package starPattern;
+
+public class PrintStarPatternProgramTwo {
+	
+	
+	public void printStarsSecond()
+	{
+		
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		PrintStarPatternProgramTwo p = new PrintStarPatternProgramTwo();
+		p.printStarsSecond();
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package seleniumMaven;
+
+public interface InterfaceProgramDemo {
+
+	int var=10; //static constant
+	//syntax
+
+	// public interface InterfaceName 
+	//	{
+
+
+	//}
+
+
+
+	public void addNumbers();
+	
+	public void subNumbers();
+	
+	public void mulNumbers();
+
+
+}

@@ -1,0 +1,21 @@
+package nestedLoop;
+
+public class NestedLoop {
+	
+	public void nestedLoop()
+	{
+		
+		
+		
+		
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		
+		NestedLoop n = new NestedLoop();
+		n.nestedLoop();
+	}
+}

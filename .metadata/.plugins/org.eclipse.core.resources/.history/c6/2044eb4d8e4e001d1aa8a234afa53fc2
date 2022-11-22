@@ -1,0 +1,21 @@
+package scannerDemo;
+
+import java.util.Scanner;
+
+public class ScannerClassDemo {
+
+	// nextInt
+	// nextLine
+	
+	int a;
+	int b;
+	
+	public void addNumbers()
+	{
+		
+		Scanner s = new Scanner(System.in);
+		
+	}
+	
+	
+}

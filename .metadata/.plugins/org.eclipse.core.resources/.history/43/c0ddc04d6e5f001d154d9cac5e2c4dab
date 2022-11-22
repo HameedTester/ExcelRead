@@ -1,0 +1,19 @@
+package Interface;
+
+public interface FatherHouse {
+	
+	
+	public void audiCar()
+	{
+		
+		System.out.println("Father house");
+		
+	}
+	
+	public void ambassordorCar()
+	{
+		
+		System.out.println("Fathers Ambassodor Car");
+	}
+
+}

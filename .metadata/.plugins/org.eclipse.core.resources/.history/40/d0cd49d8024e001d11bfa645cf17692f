@@ -1,0 +1,31 @@
+package loopsDemo;
+
+public class LoopsDemo {
+	
+	// datatype variablename = data;
+	
+	
+	
+	public void loopsDemo()
+	{
+		
+		
+		for(int num=1; num<=10; num++) // 1<=10 , 2<=10, 11<=10
+			
+		{
+			
+			
+			System.out.println(num + "X 4 = " + (num*4));// 1 X 4 = 4
+		}
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		LoopsDemo l = new LoopsDemo();
+		l.loopsDemo();
+		
+	}
+
+}

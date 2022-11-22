@@ -1,0 +1,21 @@
+package com.testng.project;
+
+import org.testng.Assert;
+
+public class AssertionInTest {
+
+	@Test
+	public void hardAssert()
+	{
+		System.out.println("Hi this is Hard Assert");
+		String s1="Oranium Velachery";
+		String s2="Oranium Chrompet";
+
+
+		Assert.assertEquals(s1, s2, "Both the Strings are Not Equals");
+		System.out.println("Hard Assert");
+		System.out.println("Hard Assert Validation");
+
+	}
+
+}

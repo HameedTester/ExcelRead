@@ -1,0 +1,30 @@
+package com.org.test.demo;
+
+class Animal {
+	String name;
+	
+	String color;
+	
+	void eat() {
+		System.out.println("I can eat");
+	}
+	
+	void sleep() {
+		System.out.println("I can sleep");
+	}
+	
+}
+
+class Dog extends Animal {
+	void sound() {
+		System.out.println("Dog barks");
+	}
+}
+
+
+public class InheritanceExample {
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.eat();
+	}
+}

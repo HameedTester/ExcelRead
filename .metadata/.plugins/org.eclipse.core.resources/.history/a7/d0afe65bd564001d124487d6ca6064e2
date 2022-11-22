@@ -1,0 +1,14 @@
+package seleniumMaven;
+
+public class ChildClassDemo implements FatherInterface {
+	
+	
+	public void divNumbers()
+	{
+		
+		System.out.println("Div Numbers");
+	}
+
+	
+	
+}

@@ -1,0 +1,28 @@
+package seleniumMaven;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class FramesDemoSelenium {
+	
+	public static void main(String[] args) {
+		
+		
+		WebDriverManager.chromedriver().setup();
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.globalsqa.com/demo-site/frames-and-windows/#iFrame");
+		
+		driver.manage().window().maximize();
+		
+		WebElement frames = driver.findElement(By.className(" ls-is-cached lazyloaded"));
+		frames.click();
+		
+	}
+
+}

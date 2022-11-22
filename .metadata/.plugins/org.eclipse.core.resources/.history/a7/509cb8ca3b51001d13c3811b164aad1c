@@ -1,0 +1,14 @@
+package inheritanceDemo;
+
+public class AbstractClassDemoProgram {
+	
+	
+	public void addNumbers()
+	{
+		
+		System.out.println("Add Numbers");
+	}
+	
+	public void subNumbers();
+
+}

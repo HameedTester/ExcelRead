@@ -1,0 +1,30 @@
+package inheritanceDemo;
+
+public class ArrayDemoProgram {
+	
+	
+	int arr[] = {23,24,54,65,78,67,34,23,98};  // length
+	
+	
+	public void arrayDemo()
+	{
+		
+		
+		 for(int i=0; i<8;i++)
+		{
+			
+			System.out.println(arr[i]);
+		}
+		
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		
+		ArrayDemoProgram a = new ArrayDemoProgram();
+		a.arrayDemo();
+		
+	}
+}

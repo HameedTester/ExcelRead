@@ -1,0 +1,19 @@
+package abstractionDemoProject;
+
+public abstract class FatherHouse {
+
+
+
+	public void audiCar() // 
+	{
+
+		System.out.println("Fathers Audi Car");
+
+	}
+
+	public abstract void porscheCar(); // can we able to create object for abstract class--> no we cant able to create object for abstract
+
+}
+
+
+public abstract void ambassadorCar();

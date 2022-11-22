@@ -1,0 +1,54 @@
+package inheritanceDemo;
+
+public class ChildCalc implements ParentCalc {
+
+
+	public void divNumbers()
+	{
+
+		System.out.println("Child Calc Div Numbers");
+
+	}
+
+	public void ModNumbers()
+	{
+
+
+		System.out.println("Child Calc Mod Numbers");
+	}
+
+	public void addNumbers()
+	{
+		System.out.println("Parent Calc Add Numbers");	
+
+	}
+	public void subNumbers()
+	{
+
+		System.out.println("Parent Calc Sub Numbers");	
+	}
+
+	public void mulNumbers()
+	{
+		System.out.println("Parent Calc Mul Numbers");
+
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		ChildCalc c = new ChildCalc();
+		
+		c.divNumbers();// child method 
+		c.ModNumbers();// child calc methods
+		
+		c.addNumbers();// parent calc methods
+		c.subNumbers();// parent calc methods
+		c.mulNumbers();// parent calc methods
+		
+		
+	}
+	
+
+}

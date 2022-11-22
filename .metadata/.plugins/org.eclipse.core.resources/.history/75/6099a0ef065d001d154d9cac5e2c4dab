@@ -1,0 +1,29 @@
+package swathi;
+
+public class StringClassDemoProgram {
+	
+	
+	String s1= "Oranium Tech Chrompet & Velachery";
+	
+	String s2="Oranium Tech Software Training Institute";
+	
+	
+	public void stringDemo()
+	{
+		
+		// to know about the string length , then we do have a method called length().
+		
+		System.out.println(s1.length());
+		
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		StringClassDemoProgram s = new StringClassDemoProgram();
+		s.stringDemo();
+		
+	}
+	
+}

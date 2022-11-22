@@ -1,0 +1,17 @@
+package methodOverloading;
+
+public class MethodOverloading {
+	
+	
+	int a =10;
+	
+	int b=20;
+	
+	public void methodOverloading()
+	{
+		
+		System.out.println(a+b);
+		
+	}
+
+}

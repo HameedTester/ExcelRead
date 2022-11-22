@@ -1,0 +1,9 @@
+package Interface;
+
+public interface FatherHouse {
+	
+	
+	public void audiCar();
+	
+	public void ambassordorCar();
+}

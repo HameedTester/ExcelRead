@@ -1,0 +1,12 @@
+package seleniumMaven;
+
+public interface InterfaceDemoProject {
+	
+	
+	public void addNumber();//
+	
+	public void subNumbers();
+	
+	public void mulNumbers();
+
+}

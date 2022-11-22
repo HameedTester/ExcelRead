@@ -1,0 +1,14 @@
+package seleniumMaven;
+
+public class SonClass {
+	
+	
+	
+	public void modNumbers()
+	{
+		
+		System.out.println("mod Numbers");
+		
+	}
+
+}

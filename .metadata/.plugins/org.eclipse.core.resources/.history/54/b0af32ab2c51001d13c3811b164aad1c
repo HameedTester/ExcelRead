@@ -1,0 +1,14 @@
+package inheritanceDemo;
+
+public class ChildCalc {
+	
+	
+	public void divNumbers()
+	{
+		
+		System.out.println("Child Calc");
+		
+		
+	}
+
+}

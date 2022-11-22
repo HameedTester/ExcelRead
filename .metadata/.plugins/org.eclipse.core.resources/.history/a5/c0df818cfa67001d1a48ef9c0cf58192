@@ -1,0 +1,23 @@
+package dataType;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+	
+	public static void main(String[] args) {
+		
+		HashSet<Object> h = new HashSet();
+		
+		h.add("Oranium"); 
+		h.add(23);
+		h.add(37458.5667f);
+		h.add(null);
+		h.add("Oranium");
+		h.add(null);
+		h.add(null);
+		
+		System.out.println(h);
+		
+	}
+
+}

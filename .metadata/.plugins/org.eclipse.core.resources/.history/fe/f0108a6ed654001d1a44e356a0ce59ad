@@ -1,0 +1,17 @@
+package finalDemoProject;
+
+public class Childclass extends Parentclass {
+	
+	public void divNumbers()
+	{
+		
+		System.out.println("Division of Two Numbers");
+	}
+	
+	public void modNumbers()
+	{
+		
+		System.out.println("Modulation of Two Numbers");
+	}
+
+}

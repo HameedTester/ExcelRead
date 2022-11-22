@@ -1,0 +1,99 @@
+package seleniumMaven;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class ImplicitAndExplicitWait {
+
+
+	public static void main(String[] args) {
+
+
+		WebDriverManager.chromedriver().setup();
+
+		WebDriver driver = new ChromeDriver();
+		//driver.get("https://www.facebook.com");
+
+		//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//
+		//		WebElement user = driver.findElement(By.id("email"));
+		//		user.sendKeys("dfadfadsf");
+		//
+		//
+		//		WebElement pass = driver.findElement(By.id("pass"));
+		//		pass.sendKeys("pass");
+		//
+		//		WebElement loginButton = driver.findElement(By.xpath("//button[//@type='submit']"));
+		//		loginButton.click();
+
+		//		driver.get("https://letcode.in/waits");
+		//
+		//
+		//		WebDriverWait wait = new WebDriverWait(driver,30);
+		//		WebElement explicit = driver.findElement(By.id("accept"));
+		//		explicit.click();
+		//		Alert until = wait.until(ExpectedConditions.alertIsPresent());
+		//		until.accept();
+
+
+		driver.get("https://money.rediff.com/gainers");
+
+		driver.manage().window().maximize();
+
+		//		
+		//		List<WebElement> thead = driver.findElements(By.xpath("//table[@class='dataTable']/thead/tr/th"));
+		//		
+		//		
+		//		for (WebElement webElement : thead) {
+		//			
+		//			System.out.println(webElement.getText());
+		//		}
+		//		
+		//		
+		//		WebElement th = driver.findElement(By.xpath("//table[@class='dataTable']/thead/tr/th[2]"));
+		//		String text = th.getText();
+		//		System.out.println(text);
+
+
+		List<WebElement> companies = driver.findElements(By.xpath("//table[@class='dataTable']/tbody/tr/td[1]"));
+
+		//		for (WebElement webElement : companies) {
+		//			
+		//			
+		//			System.out.println(webElement.getText());
+		//		}
+
+
+		List<WebElement> price = driver.findElements(By.xpath("//table[@class='dataTable']/tbody/tr/td[4]"));
+
+
+		
+		for(int i=0; i<companies.size();i++)
+		{
+			
+			
+			if(companies.get(i).getText().equalsIgnoreCase("James Warren Tea"))
+			{
+				
+				System.out.println(price.get(i).getText());
+				
+			}
+			
+			
+			
+		}
+		
+		
+	}
+
+}

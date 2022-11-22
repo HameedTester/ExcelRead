@@ -1,0 +1,32 @@
+package swathi;
+
+public class LoopsConcept {
+
+	int num=1;
+	
+	public void loops () {
+		
+		System.out.println(1);
+		
+		
+		
+		
+	}
+	public static void main(String[] args) {
+	LoopsConcept l = new LoopsConcept ();
+	l.loops ();
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

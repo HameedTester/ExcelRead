@@ -1,0 +1,31 @@
+package inheritanceDemo;
+
+public class SonHouse extends FathersHouse { // we cant able to extend multilple classes
+	
+	
+	public void ktmBike() // ktm bike, pulsarbike, ambassdorcar, audicar, bicycle, porschecar
+	{
+		
+		
+		System.out.println("Sons KTM Bike");
+	}
+	
+	public void pulsarBike()
+	{
+		
+		
+		System.out.println("Sons Pulsar Bike");
+	}
+	
+	public static void main(String[] args) {
+		
+		SonHouse s = new SonHouse();
+		s.ktmBike();
+		s.pulsarBike();
+		s.audiCar();
+		s.ambassdorCar();
+		
+		
+	}
+
+}

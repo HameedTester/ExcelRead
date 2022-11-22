@@ -1,0 +1,9 @@
+package seleniumProject;
+
+public class SeleniumProject {
+	public static void main(String[] args) {
+		
+		System.setProperty(null, null)
+	}
+
+}

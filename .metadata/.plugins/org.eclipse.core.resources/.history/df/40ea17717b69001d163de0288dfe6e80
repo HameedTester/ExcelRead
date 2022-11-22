@@ -1,0 +1,23 @@
+package com.testng.project;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import org.testng.annotations.Test;
+
+public class DataDrivenFramework {
+	
+	@Test
+	public void excelRead() throws FileNotFoundException
+	{
+	
+	// provide the path of the excel file
+		
+		String file = "C:\\Users\\Lenovo\\eclipse-workspace\\SeleniumMavenProject\\DataDriven\\Data.xlsx";
+		FileInputStream fis = new FileInputStream(file);
+		
+		
+		
+	}
+
+}

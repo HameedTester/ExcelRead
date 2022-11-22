@@ -1,0 +1,22 @@
+package dataType;
+
+public class Hello extends NormalClas{
+
+	public  void add() {
+		
+	System.out.println("add");	
+		
+		
+	}
+	public void sub() {
+		
+		System.out.println("sub");
+		
+		
+	}
+	
+	
+	
+	
+	
+}

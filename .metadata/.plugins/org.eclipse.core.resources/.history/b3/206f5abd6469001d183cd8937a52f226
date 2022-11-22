@@ -1,0 +1,47 @@
+package dataType;
+
+public class ConstructorClass {
+
+	
+	int a;
+	int b;
+	
+	ConstructorClass (){
+		
+		a=10;
+		b=20;
+		
+		System.out.println(a+b);
+		
+		
+	}
+	public static void main(String[] args) {
+		 
+	ConstructorClass c = new ConstructorClass ();
+	
+	}
+			
+			
+			
+			
+			
+			
+			
+		
+
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

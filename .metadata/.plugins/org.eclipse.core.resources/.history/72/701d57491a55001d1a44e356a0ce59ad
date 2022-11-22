@@ -1,0 +1,42 @@
+package twoDimensional;
+
+public class MethodOverloadingDemoProgram {
+	
+	int a =10;
+	int b=20;// Gloabl Variables
+
+	
+	public void addNumbers() // without parameter
+	{
+		
+		System.out.println("Addition of Two Numbers:"+(a+b));
+	}
+	
+	public void addNumbers(int a, int b) // with parameters
+	{
+		System.out.println(a-b);
+		
+	}
+	public void addNumbers(float a, int b) // Changing the Data type
+	{
+		
+		System.out.println(a*b);
+	}
+	
+	
+	public void addNumbers(float a, int b)
+	{
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		MethodOverloadingDemoProgram m = new MethodOverloadingDemoProgram();
+		m.addNumbers();
+		m.addNumbers(30, 20);
+		
+	}
+	
+	
+}

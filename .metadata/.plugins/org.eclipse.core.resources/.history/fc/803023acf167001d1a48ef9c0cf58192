@@ -1,0 +1,102 @@
+package com.testng.project;
+
+public class AnnotationAvailInTestng {
+	
+	
+	
+	
+	public void beforeSuite()
+	{
+		
+		
+	}
+	
+	public void beforeTest()
+	{
+		
+		
+	}
+	
+	public void beforeClass()
+	{
+		
+		
+	}
+
+	
+	public void beforeMethod()
+	{
+		
+		
+	}
+	
+	public void actualTestCaseOne()
+	{
+		
+		
+	}
+	
+	public void actualTestCaseTwo()
+	{
+		
+		
+		
+	}
+	
+	public void afterMethod()
+	{
+		
+		
+	}
+	
+	
+	public void afterClass()
+	{
+		
+		
+		
+		
+		
+	}
+	
+	
+	public void afterTest()
+	{
+		
+		
+	}
+	
+	public void afterSuite()
+	{
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

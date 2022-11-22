@@ -1,0 +1,41 @@
+package swathi;
+
+public class ControlStatement {
+int arr[]= {12,34,44,57,98};
+
+public void array() 
+{
+	System.out.println("iterating array using normal for loop");
+	
+	for(int i=4;i>=0;i--);
+	{
+		System.out.println(arr[i]);
+	}
+}
+		
+		
+		
+		
+		
+
+public static void main(String[] args) {
+ControlStatement c	 = new ControlStatement ();
+c . array();
+	
+	
+	
+	
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

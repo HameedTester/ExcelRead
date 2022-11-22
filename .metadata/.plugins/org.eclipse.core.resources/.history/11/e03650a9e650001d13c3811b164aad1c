@@ -1,0 +1,27 @@
+package org.com.oraniumtech;
+
+abstract class MessageSend {
+	
+	abstract void send(String message);
+	
+}
+
+
+class ThirdParty extends MessageSend  {
+
+	@Override
+	void send(String message) {
+		// TODO Auto-generated method stub
+		System.out.println(message);
+	}
+	
+}
+
+
+
+public class WhatsApp {
+	public static void main(String[] args) {
+		ThirdParty t = new ThirdParty();
+		t.send("Hi");
+	}
+}

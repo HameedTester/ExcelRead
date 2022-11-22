@@ -1,0 +1,25 @@
+package com.testng.project;
+
+import org.testng.annotations.Test;
+
+public class DependsOnMethodInTestng {
+	
+	
+	
+	@Test
+	public void launchFaceBook()
+	{
+		
+		
+		
+	}
+	
+	@Test
+	public void loginFaceBook()
+	{
+		
+		
+	}
+	
+
+}

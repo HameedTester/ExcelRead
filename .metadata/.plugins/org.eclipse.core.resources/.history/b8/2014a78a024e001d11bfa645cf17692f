@@ -1,0 +1,28 @@
+package loopsDemo;
+
+public class LoopsDemo {
+	
+	// datatype variablename = data;
+	
+	int num = 1;
+	
+	public void loopsDemo()
+	{
+		// using while loop
+		
+		while(num<=10)// vairable + relational operator
+		{
+		System.out.println(num + " X 4 =" + (num*4));
+		
+		num++;
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		LoopsDemo l = new LoopsDemo();
+		l.loopsDemo();
+		
+	}
+
+}

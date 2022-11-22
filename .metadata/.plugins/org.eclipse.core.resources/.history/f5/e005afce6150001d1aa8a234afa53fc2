@@ -1,0 +1,7 @@
+package encapsulationDemo;
+
+public class FriendHome {
+	
+	int lockerAmt=100000;
+
+}

@@ -1,0 +1,13 @@
+package interfaceDemo;
+
+public interface ParentCalculator {
+
+
+
+	public void addNumbers(); // Abstract Methods, Unimplemented methods // we cant create object for interface
+
+
+	public void subNumbers();
+
+	public void mulNumbers();
+}

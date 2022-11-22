@@ -1,0 +1,61 @@
+package methodDemo;
+
+public class MethodDemo {
+
+
+	int a =10; // Global Variables
+	int b =20;
+
+	// method without returnType without parameter
+
+
+	public void addNumbers() // without returnType, without parameter
+	{
+
+		System.out.println("Additon of Two Numbers:"+(a+b));
+
+	}
+	
+	// without returnType, with Parameter
+	
+	public void subNumbers(int a, int b) // Local Variable   // int, float, double, string, char, boolean
+
+	{
+		
+		System.out.println(a-b);
+		
+	}
+	
+	
+	// with returnType without parameter
+	
+	
+	public int mulNumbers() // method with returnType witout parameter
+	{
+		return a*b;
+		
+	}
+	
+	
+	public int divNumbers(int x, int y) // method with returnType with Parameter
+	{
+		
+	return x/y;	
+		
+	}
+	
+
+	public static void main(String[] args) {
+		MethodDemo m = new MethodDemo();
+		m.addNumbers();
+		m.subNumbers(100, 50);
+		System.out.println(m.mulNumbers());
+		System.out.println(m.divNumbers(40, 20));
+	}
+
+
+
+
+
+
+}

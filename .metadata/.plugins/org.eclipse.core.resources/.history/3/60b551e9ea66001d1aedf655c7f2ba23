@@ -1,0 +1,16 @@
+package com.testng.project;
+
+public class ParameterizationTest {
+	
+	
+	public void paramterTest()
+	{
+		
+		
+		
+		
+		
+		
+	}
+
+}

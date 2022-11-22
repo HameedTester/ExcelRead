@@ -1,0 +1,15 @@
+package com.testng.project;
+
+public class Assertions {
+
+	@Test
+
+	public void hardAssert()
+	{
+
+
+
+
+	}
+
+}

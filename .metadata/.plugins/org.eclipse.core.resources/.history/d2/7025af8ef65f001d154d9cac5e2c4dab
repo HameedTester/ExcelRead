@@ -1,0 +1,36 @@
+package swathi;
+
+public class LoopsConcept {
+
+	int num=1;
+	
+	public void loops () {
+		
+		do
+		{
+			System.out.println(num);
+			num++;
+		}while(num<=50);
+		
+		
+		
+		
+	}
+	public static void main(String[] args) {
+	LoopsConcept l = new LoopsConcept ();
+	l.loops ();
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,17 @@
+package nestedLoop;
+
+public class PrintStars {
+	
+	
+	public void printStars()
+	{
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		PrintStars p = new PrintStars();
+		p.printStars();
+	}
+}

@@ -1,0 +1,25 @@
+
+
+Feature: Verify Login Functionality of Facebook
+  
+  Scenario: Login Facebook Page
+    Given User launch the Browser
+    
+    When User Enters the "username" and "password"
+    
+    And User click the Login Button
+    Then User validate the outcomes
+    
+    Scenario Outline: 
+    
+    Given User launch the Browser
+    
+    When User Enters the "username" and "password"
+    
+    And User click the Login Button
+    Then User validate the outcomes
+    
+    
+    
+
+  

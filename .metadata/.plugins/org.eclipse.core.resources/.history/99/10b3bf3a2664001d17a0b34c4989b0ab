@@ -1,0 +1,29 @@
+package seleniumMaven;
+
+public class ExceptionHandling {
+
+
+	int a =10;
+	int b=10;
+
+
+	public void exceptionHandling()
+	{
+
+		System.out.println("Hiii This is Exception Handling Demo");
+		
+		System.out.println("Division of Two Numbers:"+(a/b));
+		
+		System.out.println("Thank you for Practicing Exception Handling");
+
+	}
+
+
+	public static void main(String[] args) {
+
+		ExceptionHandling e = new ExceptionHandling();
+		e.exceptionHandling();
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package encapsulationDemoOne;
+
+public class MyHome {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		MyFriendHome m = new MyFriendHome();
+		System.out.println(m.getLockerAmt());
+		
+	}
+
+}

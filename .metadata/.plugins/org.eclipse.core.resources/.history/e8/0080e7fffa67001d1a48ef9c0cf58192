@@ -1,0 +1,25 @@
+package dataType;
+
+import java.util.LinkedHashSet;
+
+public class LinkedHashSetDemo {
+	
+	public static void main(String[] args) {
+		
+		LinkedHashSet<Object> l = new LinkedHashSet();
+		
+		
+		l.add("Oranium"); 
+		l.add(23);
+		l.add(37458.5667f);
+		l.add(null);
+		l.add("Oranium");
+		l.add(null);
+		l.add(null);
+		
+		System.out.println(l);
+		
+		
+	}
+
+}

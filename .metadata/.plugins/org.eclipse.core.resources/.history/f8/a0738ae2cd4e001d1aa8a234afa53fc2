@@ -1,0 +1,22 @@
+package starPattern;
+
+public class ScannerStringDemo {
+	
+	
+	String s1;
+	
+	String s2;
+	
+	public void scannerString()
+	{
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		ScannerStringDemo s = new ScannerStringDemo();
+		s.scannerString();
+		
+	}
+}

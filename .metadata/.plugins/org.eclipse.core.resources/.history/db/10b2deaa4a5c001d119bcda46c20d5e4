@@ -1,0 +1,53 @@
+package arrayDemo;
+
+public class TwoDimensionalDemoArray {
+	
+	int a[][] = {
+			
+			
+			{12,23,45},
+			{23,54,65},
+			{89,56,89},
+			
+			
+	};
+	
+	
+	public void twoDimensional()
+	{
+		
+//		System.out.println(a.length);
+//		System.out.println(a[0][0]);
+//		System.out.println(a[2][1]);
+//		System.out.println(a[2].length);
+		
+		
+		for(int row=0; row<3; row++)
+		{
+			
+			
+			for(int col=0; col<3; col++)
+			{
+				
+				
+				System.out.println(a[row][col]+" ");
+				
+				
+			}
+			
+		}
+		
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		
+		TwoDimensionalDemoArray t = new TwoDimensionalDemoArray();
+		t.twoDimensional();
+		
+		
+	}
+
+}

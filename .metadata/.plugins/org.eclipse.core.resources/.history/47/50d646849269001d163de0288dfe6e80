@@ -1,0 +1,28 @@
+package com.testng.project;
+
+public class Base {
+	
+	
+	
+	public void browserLaunch()
+	{
+		
+		
+	}
+	
+	
+	public void browserClose()
+	{
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

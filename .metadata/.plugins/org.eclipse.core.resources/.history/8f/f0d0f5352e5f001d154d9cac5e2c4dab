@@ -1,0 +1,50 @@
+package swathi;
+
+public class ControlStatement {
+
+int num =24;
+
+public void evencheck () {
+	if(num%2==0)
+	{
+		System.out.println(num+"is a completely divided by 2");//true
+		if(num%4==0)
+		{
+			System.out.println(num +"is a completely divided by 4");//true
+			if(num%6==0)
+			{
+				System.out.println(num+"is a completely divided by 6");//true
+				if(num%8==0)
+				{
+					System.out.println(num +"is a completely divide by 8");//true
+					if(num%16==0)
+					{
+						System.out.println(num +"is a completely divided by 16");//false
+					}
+				}
+			}
+		}
+	}
+	
+}
+public static void main(String[] args) {
+ControlStatement c	 = new ControlStatement ();
+c .evencheck ();
+	
+	
+	
+	
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,24 @@
+package dataType;
+
+public class TableFormatUsingLoops {
+	
+	
+	int num=1;
+	
+	
+	public void tableFormat()
+	{
+		
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		
+		TableFormatUsingLoops t = new TableFormatUsingLoops();
+		t.tableFormat();
+		
+	}
+
+}

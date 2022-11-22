@@ -1,0 +1,33 @@
+package scannerDemo;
+
+import java.util.Scanner;
+
+public class ScannerClassDemo {
+
+	// nextInt --> int
+	// nextLine--> String
+	
+	int a;
+	int b;
+	
+	public void addNumbers()
+	{
+		
+		Scanner s = new Scanner(System.in); // Syntax for Scanner Class
+		a = s.nextInt();
+		b = s.nextInt();
+		
+		System.out.println("Addition of Two Numbers:"+(a+b));
+		s.close(); // to avoid memory leakage
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		ScannerClassDemo s = new ScannerClassDemo();
+		s.addNumbers();
+		
+	}
+	
+	
+}

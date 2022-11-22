@@ -1,0 +1,16 @@
+package twoDimensional;
+
+public class TwoDimensional {
+
+
+	int a[][] = {
+
+			{23,45,65,78},
+			{34,56,77,90},
+			{21,54,56,87},
+
+
+
+	};
+
+}

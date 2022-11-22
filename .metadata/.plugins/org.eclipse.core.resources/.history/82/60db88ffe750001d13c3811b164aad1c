@@ -1,0 +1,48 @@
+package abstractionDemoProject;
+
+public class SonHouse extends FatherHouse {
+
+
+	public void ktmBike()
+	{
+
+		System.out.println("Sons KTM Bike");
+
+	}
+
+	public void benzzCar()
+	{
+
+		System.out.println("Sons Benzz Car");
+	}
+
+
+	public void porscheCar() 	{
+
+		System.out.println("Fathers Posche Car");
+
+
+	}
+
+
+
+	public void ambassadorCar()
+	{
+
+		System.out.println("Fathers Ambassador Car");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	
+	SonHouse s = new SonHouse();
+	s.ktmBike();
+	s.benzzCar();
+	s.audiCar();
+	s.porscheCar();
+	s.ambassadorCar();
+	
+	}
+
+}

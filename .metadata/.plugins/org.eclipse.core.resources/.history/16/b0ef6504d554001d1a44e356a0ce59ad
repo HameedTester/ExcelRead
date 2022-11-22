@@ -1,0 +1,36 @@
+package finalDemoProject;
+
+public class ChildClass {
+
+	final int empSalary = 10000;
+
+
+	public void empID()
+	{
+
+		System.out.println("Employee ID");
+	}
+
+	public void empDetails()
+	{
+
+		System.out.println("Employee Details");
+	}
+
+	public void empLocation()
+	{
+
+		System.out.println("Employee Location");
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		ChildClass c = new ChildClass();  // Obj == method+variable
+		c.empID();
+		c.empDetails();
+		c.empLocation();
+		c.empSalary=20000; // we cant change the variable value if we assign variable as final
+	}
+
+}

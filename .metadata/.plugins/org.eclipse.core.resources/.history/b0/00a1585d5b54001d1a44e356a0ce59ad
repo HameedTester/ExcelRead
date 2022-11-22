@@ -1,0 +1,10 @@
+package inheritanceDemo;
+
+public interface GrandParentCalc {
+	
+	
+	public void scientificCalc();
+	
+	public void oldCalc();
+
+}

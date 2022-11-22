@@ -1,0 +1,27 @@
+package methodDemo;
+
+public class ArrayOneDimensional {
+
+
+	int arr[] = {23,25,65,76,87,98};
+
+
+	public void arrayDemo(){
+
+		System.out.println(arr[0]);
+		System.out.println(arr[1]);
+		System.out.println(arr[2]);
+		System.out.println(arr[3]);
+	}
+
+
+	public static void main(String[] args) {
+
+
+		ArrayOneDimensional a = new ArrayOneDimensional();
+		a.arrayDemo();
+
+	}
+
+
+}

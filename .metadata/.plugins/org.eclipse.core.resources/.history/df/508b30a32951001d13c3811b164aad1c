@@ -1,0 +1,13 @@
+package inheritanceDemo;
+
+public class GrandFatherHouse {
+	
+	
+	public void biCycle()
+	{
+		
+		System.out.println("GrandFathers Bi Cycle");
+		
+	}
+
+}

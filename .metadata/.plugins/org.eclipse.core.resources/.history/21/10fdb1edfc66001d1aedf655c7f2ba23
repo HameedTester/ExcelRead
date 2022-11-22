@@ -1,0 +1,28 @@
+package dataType;
+
+public class LogicalOperator {
+
+
+	int x=10;
+	int y=20;
+
+
+	public void logicalOperator()
+	{
+
+		System.out.println((x<y) && (x>y)); 
+		System.out.println((x==y)&& (x<y)); //
+		System.out.println((x>y) && (x==y)); //
+		System.out.println((x>y) && (x=y)); //
+
+
+	}
+
+
+	public static void main(String[] args) {
+
+		LogicalOperator l = new LogicalOperator();
+
+		l.logicalOperator();
+	}
+}

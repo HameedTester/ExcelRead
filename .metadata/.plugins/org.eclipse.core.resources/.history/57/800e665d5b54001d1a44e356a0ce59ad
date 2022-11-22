@@ -1,0 +1,18 @@
+package inheritanceDemo;
+
+public interface ParentCalc {
+
+
+
+	public void addNumbers(); // Fully Abstract method
+
+	public void subNumbers();
+
+	public void mulNumbers();
+	
+	
+	// Cant able to create object for this interface, dueto unimplmeneted methods or fully abstract methods
+
+
+
+}

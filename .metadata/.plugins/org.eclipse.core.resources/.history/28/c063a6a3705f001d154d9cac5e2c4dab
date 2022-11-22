@@ -1,0 +1,33 @@
+package Interface;
+
+public class ChildHouse implements FatherHouse, MotherHouse {
+
+
+	public void ktmBike()
+	{
+
+		System.out.println("Sons KTM Bike");
+	}
+
+	public void benzCar()
+	{
+
+		System.out.println("Sons benzz Cars");
+	}
+
+
+	
+
+
+	public static void main(String[] args)
+	{
+
+		ChildHouse c = new ChildHouse();
+		c.ktmBike();
+		c.benzCar();
+		
+
+	}
+
+
+}

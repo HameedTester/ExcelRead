@@ -1,0 +1,33 @@
+package finalDemoProject;
+
+public class Childclass extends Parentclass {
+	
+	public void divNumbers()
+	{
+		
+		System.out.println("Division of Two Numbers");
+	}
+	
+	public void modNumbers()
+	{
+		
+		System.out.println("Modulation of Two Numbers");
+	}
+	
+	public void mulNumbers()
+	{
+		
+		System.out.println("Multiplication of Two Numbers");
+	}
+
+	public static void main(String[] args) {
+		
+		Childclass c = new Childclass();
+		c.divNumbers(); // child
+		c.modNumbers();// child
+		c.mulNumbers();// parent--> parent abstract--> implement method
+		c.addNumbers();//parent
+		c.subNumbers();//parent
+	}
+
+}

@@ -1,0 +1,10 @@
+package swathi;
+
+public class StringDemo {
+
+
+	String s1= "Oranium Tech Chrompet & Velachery";
+
+	String s2="Oranium Tech Chrompet";
+
+}

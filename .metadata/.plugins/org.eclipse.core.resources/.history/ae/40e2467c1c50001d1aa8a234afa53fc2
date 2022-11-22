@@ -1,0 +1,26 @@
+package inheritanceDemo;
+
+public class SonHouse extends FathersHouse {
+	
+	
+	public void ktmBike()
+	{
+		
+		
+		System.out.println("Sons KTM Bike");
+	}
+	
+	public void pulsarBike()
+	{
+		
+		
+		System.out.println("Sons Pulsar Bike");
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

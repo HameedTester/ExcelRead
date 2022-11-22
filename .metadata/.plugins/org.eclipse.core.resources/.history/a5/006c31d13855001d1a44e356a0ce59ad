@@ -1,0 +1,27 @@
+package Javatoday;
+
+import firstProgram.FirstProgramJava;
+
+public class Javavijayclass {
+
+	
+	int a = 12; // variable declaration // right click--> run as Java application--> ctrl+f11
+
+	public void addNumbers()
+	{
+
+		System.out.println("vijay Java Student 7PM");
+
+	}
+
+	public static void main(String[] args)
+	{
+
+
+		// ClassName objectName = new ClassName(); // dynamic memeory allocator
+
+		FirstProgramJava f = new FirstProgramJava();// object creation
+		//objectname.methodName
+		f.addNumbers();
+
+}

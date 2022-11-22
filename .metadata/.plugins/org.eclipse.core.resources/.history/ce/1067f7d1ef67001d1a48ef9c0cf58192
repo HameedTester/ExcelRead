@@ -1,0 +1,26 @@
+package com.testng.project;
+
+public class Assertion {
+	
+	
+	
+	
+	
+	@Test
+	public void hardAssert()
+	{
+		
+		
+		
+		
+	}
+	
+	@Test
+	public void softAssert()
+	{
+		
+		
+		
+	}
+
+}

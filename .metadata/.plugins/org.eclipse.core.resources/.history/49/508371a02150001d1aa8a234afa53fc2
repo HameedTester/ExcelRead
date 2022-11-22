@@ -1,0 +1,10 @@
+package interfaceDemo;
+
+public interface MotherCalculator {
+
+
+
+	public void mulNumbers();
+
+
+}

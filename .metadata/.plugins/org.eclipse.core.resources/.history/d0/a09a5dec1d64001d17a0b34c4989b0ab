@@ -1,0 +1,22 @@
+package seleniumMaven;
+
+public class MyHome {
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Encapsulation e = new Encapsulation();
+		
+		System.out.println(e.getLocker());
+		
+		e.locker=5000;
+		
+		System.out.println(e.locker);
+		
+		
+	}
+}

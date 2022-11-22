@@ -1,0 +1,30 @@
+package loopsDemo;
+
+import java.util.Scanner;
+
+public class ScannerClassDemo {
+	
+	String s1;
+	String s2;
+	
+	public void scannerDemoClass()
+	{
+		
+		Scanner s = new Scanner(System.in);
+		String s1 = s.nextLine();
+		String s2 = s.nextLine();
+		
+		System.out.println(s1 +s2);
+		s.close();
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		ScannerClassDemo s = new ScannerClassDemo();
+		s.scannerDemoClass();
+	}
+
+}

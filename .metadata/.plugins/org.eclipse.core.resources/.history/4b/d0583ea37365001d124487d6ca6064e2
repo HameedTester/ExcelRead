@@ -1,0 +1,45 @@
+package dataType;
+
+public class StringObject {
+
+	String s1 = "oranium tech";
+	String s2 = new String ("java programming");
+	String s3 = "practice java";
+	
+	public void printstring () {
+		
+		System.out.println(s1);//oranium tech
+		System.out.println(s2);//java programming
+		System.out.println(s3);
+		
+		System.out.println(s1.hashCode());//address
+		System.out.println(s2.hashCode());
+		
+		
+		
+		
+	}
+	public static void main(String[] args) {
+		
+		 StringObject a = new  StringObject ();
+		 a.printstring();
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

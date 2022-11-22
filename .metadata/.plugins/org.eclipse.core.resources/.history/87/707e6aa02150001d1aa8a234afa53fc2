@@ -1,0 +1,10 @@
+package interfaceDemo;
+
+public interface GrandCalculator {
+
+
+
+	public void mulNumbers();
+
+
+}

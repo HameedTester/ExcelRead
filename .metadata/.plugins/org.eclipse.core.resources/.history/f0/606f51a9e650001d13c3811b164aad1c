@@ -1,0 +1,13 @@
+package org.com.oraniumtech;
+
+public interface EmployeeOfficialDetails {
+
+	String companyName = "Oranium tech";
+	
+	String companyAddress = "oranium tech address";
+	
+	String companyEmailId = "oranium@tech.com";
+	
+	String position = "Manager";
+
+}

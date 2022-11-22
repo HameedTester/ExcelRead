@@ -1,0 +1,18 @@
+package encapsulationDemo;
+
+public class FriendHome {
+
+	int lockerAmt =400000;
+
+	public int getLockerAmt() {
+		return lockerAmt;
+	}
+
+	public void setLockerAmt(int lockerAmt) {
+		this.lockerAmt = lockerAmt;
+	}
+
+
+
+
+}

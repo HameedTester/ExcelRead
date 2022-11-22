@@ -1,0 +1,40 @@
+package twoDimensional;
+
+public class TwoDimensional {
+
+
+	int a[][] = {
+
+			{23,45,65},// -- rows =0,2, col=0 col=3
+			{34,56,77},
+			{21,54,56},
+			// columns
+
+	};
+	public void arrayDemo()
+	{
+
+		//		System.out.println(a[0][0]); //23
+		//		System.out.println(a[2][3]); //87
+		//		System.out.println(a[1][2]);// 77
+		//		System.out.println(a[2].length); 
+
+
+		for(int row=0; row<3; row++)
+		{
+
+			for(int col=0;)
+		}
+
+
+
+	}
+
+	public static void main(String[] args) {
+		TwoDimensional t = new TwoDimensional();
+		t.arrayDemo();
+	}
+
+
+
+}

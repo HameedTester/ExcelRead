@@ -1,0 +1,40 @@
+package swathi;
+
+public class ControlStatement {
+
+int num =12;
+
+public void evencheck () {
+	if(num%2==0)
+	{
+		System.out.println( num +"even number");
+	}
+	else
+	{
+		System.out.println(num+"odd number");
+	}
+	
+	
+	
+}
+public static void main(String[] args) {
+ControlStatement c	 = new ControlStatement ();
+c .evencheck ();
+	
+	
+	
+	
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

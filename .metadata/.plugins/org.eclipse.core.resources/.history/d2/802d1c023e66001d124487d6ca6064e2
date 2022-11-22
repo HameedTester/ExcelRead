@@ -1,0 +1,29 @@
+package dataType;
+
+public class FatherProperty {
+
+	
+public void audicar () {
+	
+	System.out.println("this is father audicar");
+	
+	
+}	
+public void land() {
+	
+	System.out.println("this is father land");
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

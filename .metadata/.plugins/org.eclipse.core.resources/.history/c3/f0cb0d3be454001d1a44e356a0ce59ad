@@ -1,0 +1,20 @@
+package package1;
+
+public class ChildClass {
+	
+	
+	int a =10;
+	
+	
+	public void accessModifiers()
+	{
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		ChildClass c = new ChildClass();
+		c.accessModifiers();
+	}
+}

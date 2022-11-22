@@ -1,0 +1,23 @@
+package package1;
+
+public class ChildClass {
+
+
+	public int a =10;
+
+
+	public void accessModifiers()
+	{
+		System.out.println("Access Modifiers");
+
+	}
+
+	public static void main(String[] args) {
+
+		ChildClass c = new ChildClass();
+		c.accessModifiers();
+		System.out.println(c.a);
+
+
+	}
+}

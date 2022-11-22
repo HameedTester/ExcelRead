@@ -1,0 +1,32 @@
+package nestedLoop;
+
+public class NestedLoop {
+	
+	public void nestedLoop()
+	{
+		
+		
+		for(int row=1; row<=5; row++)// 1<=5
+		{
+			
+			
+			for(int col=1; col<=5; col++) //1<=5
+			{
+				
+				System.out.print("* "); //* 
+				
+			}
+			
+		}
+		
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		
+		NestedLoop n = new NestedLoop();
+		n.nestedLoop();
+	}
+}

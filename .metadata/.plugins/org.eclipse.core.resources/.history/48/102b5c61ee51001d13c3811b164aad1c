@@ -1,0 +1,17 @@
+package seleniumMaven;
+
+public class ChildClass {
+
+	public void divNumbers()
+	{
+		System.out.println("div numbers");
+
+	}
+
+	public void modNumbers()
+	{
+
+		System.out.println("Mod Numbers");
+	}
+
+}
